@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LinKingPatch_Example' do
+  pod 'LinKingPatch', :path => '../'
+
+  target 'LinKingPatch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
