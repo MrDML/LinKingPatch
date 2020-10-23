@@ -1,0 +1,6 @@
+framework module Pods_LinKingPatch_Example_LinKingPatch {
+  umbrella header "Pods-LinKingPatch_Example-LinKingPatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

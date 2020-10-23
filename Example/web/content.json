@@ -1,0 +1,919 @@
+{
+  "rootPath" : "web",
+  "version" : "0.0.1",
+  "resources" : [
+    {
+      "path" : "content.json",
+      "sign" : "ae8d323b87bd80b82f006a5651cb63a2",
+      "suffix" : "json",
+      "name" : "content"
+    },
+    {
+      "path" : "index.html",
+      "sign" : "309e0a0bbb35aa3aed87e3fb00b67c7f",
+      "suffix" : "html",
+      "name" : "index"
+    },
+    {
+      "path" : "main.txt",
+      "sign" : "5591b7ea6e87b40943438ba2012ae757",
+      "suffix" : "txt",
+      "name" : "main"
+    },
+    {
+      "path" : "user_agreement.html",
+      "sign" : "309e0a0bbb35aa3aed87e3fb00b67c7f",
+      "suffix" : "html",
+      "name" : "user_agreement"
+    },
+    {
+      "path" : "js\/lkbridge.min_3d961e5b.js",
+      "sign" : "d4512fbdb03e535f9ce54f8dd4fc16b0",
+      "suffix" : "js",
+      "name" : "lkbridge.min_3d961e5b"
+    },
+    {
+      "path" : "js\/egret.min_f3705262.js",
+      "sign" : "cbbea65a5544b27269ee705ac42be808",
+      "suffix" : "js",
+      "name" : "egret.min_f3705262"
+    },
+    {
+      "path" : "js\/game.min_45aa06f6.js",
+      "sign" : "9b128bc335b0ced149a2cc7724688ec8",
+      "suffix" : "js",
+      "name" : "game.min_45aa06f6"
+    },
+    {
+      "path" : "js\/default.thm_3d9f6a7d.js",
+      "sign" : "65b3a011ad92068683d015c8aa01ef8d",
+      "suffix" : "js",
+      "name" : "default.thm_3d9f6a7d"
+    },
+    {
+      "path" : "js\/ddsdk.min_e9ab3efb.js",
+      "sign" : "6332467177870129497692cd489a9c59",
+      "suffix" : "js",
+      "name" : "ddsdk.min_e9ab3efb"
+    },
+    {
+      "path" : "js\/main.min_7137b36e.js",
+      "sign" : "736933513813af3987991ffbb76e0998",
+      "suffix" : "js",
+      "name" : "main.min_7137b36e"
+    },
+    {
+      "path" : "js\/dragonBones.min_6252b9c4.js",
+      "sign" : "8e2f39e62dbea0106e177ec0748aaca7",
+      "suffix" : "js",
+      "name" : "dragonBones.min_6252b9c4"
+    },
+    {
+      "path" : "js\/promise.min_83a6a5d.js",
+      "sign" : "1db72e0812aeb36ffec5285a2e14959f",
+      "suffix" : "js",
+      "name" : "promise.min_83a6a5d"
+    },
+    {
+      "path" : "js\/jquery.min_bb41c577.js",
+      "sign" : "177720a712d06dedd0d2ded740f8edfa",
+      "suffix" : "js",
+      "name" : "jquery.min_bb41c577"
+    },
+    {
+      "path" : "js\/tween.min_6c5a88f9.js",
+      "sign" : "20f8a48b4726c837db3d3cb6dfeaf8b1",
+      "suffix" : "js",
+      "name" : "tween.min_6c5a88f9"
+    },
+    {
+      "path" : "js\/assetsmanager.min_f2e50bd1.js",
+      "sign" : "32c46b4358677ba7de8fba699f0ad532",
+      "suffix" : "js",
+      "name" : "assetsmanager.min_f2e50bd1"
+    },
+    {
+      "path" : "js\/md5.min_2008b529.js",
+      "sign" : "88ca02de8f0a1d99da6267458228fc54",
+      "suffix" : "js",
+      "name" : "md5.min_2008b529"
+    },
+    {
+      "path" : "js\/socket.min_8b4cb752.js",
+      "sign" : "43649a162ccb3e1376835c9db9c147cf",
+      "suffix" : "js",
+      "name" : "socket.min_8b4cb752"
+    },
+    {
+      "path" : "js\/egret.web.min_2dd0bd72.js",
+      "sign" : "884f192b3debad771c56acec467361c7",
+      "suffix" : "js",
+      "name" : "egret.web.min_2dd0bd72"
+    },
+    {
+      "path" : "js\/appbox.min_47246cd3.js",
+      "sign" : "b66afcc25b88bb5b3779b972af9c6bef",
+      "suffix" : "js",
+      "name" : "appbox.min_47246cd3"
+    },
+    {
+      "path" : "js\/decimal.min_2611b790.js",
+      "sign" : "338cc6b5aa4a4ce4fcd3bf16cd7463cc",
+      "suffix" : "js",
+      "name" : "decimal.min_2611b790"
+    },
+    {
+      "path" : "js\/eui.min_4f767512.js",
+      "sign" : "469a4606349244c1ce301fae0892a2cf",
+      "suffix" : "js",
+      "name" : "eui.min_4f767512"
+    },
+    {
+      "path" : "js\/config.min_7bcd8b2a.js",
+      "sign" : "6ac5d4ec8b00146ad2e05258aaec3a34",
+      "suffix" : "js",
+      "name" : "config.min_7bcd8b2a"
+    },
+    {
+      "path" : "stage\/game.js",
+      "sign" : "d41d8cd98f00b204e9800998ecf8427e",
+      "suffix" : "js",
+      "name" : "game"
+    },
+    {
+      "path" : "resource_v6\/default.res.json",
+      "sign" : "7221c063df5acafd18358b976b4261f4",
+      "suffix" : "json",
+      "name" : "default.res"
+    },
+    {
+      "path" : "resource\/default.thm.json",
+      "sign" : "9a6a0f7e69284e871393bcfbd6504a91",
+      "suffix" : "json",
+      "name" : "default.thm"
+    },
+    {
+      "path" : "resource\/default.res.json",
+      "sign" : "6e61b088c4c5cf0ff14401daef582c08",
+      "suffix" : "json",
+      "name" : "default.res"
+    },
+    {
+      "path" : "stage\/resource\/default.res.json",
+      "sign" : "e9c34487b0a55c4a43d8f04cf8d8fd02",
+      "suffix" : "json",
+      "name" : "default.res"
+    },
+    {
+      "path" : "resource_v6\/config\/dpsConfig.json",
+      "sign" : "872c64c998b3f1c737e18308ccfe04ad",
+      "suffix" : "json",
+      "name" : "dpsConfig"
+    },
+    {
+      "path" : "resource_v6\/config\/bloodConfig.json",
+      "sign" : "a7017f9491dba47a5b218f431a67ca72",
+      "suffix" : "json",
+      "name" : "bloodConfig"
+    },
+    {
+      "path" : "resource_v6\/sound\/gold.mp3",
+      "sign" : "df731fe432b735e8c3aadd28561e58f5",
+      "suffix" : "mp3",
+      "name" : "gold"
+    },
+    {
+      "path" : "resource_v6\/sound\/bgm1.mp3",
+      "sign" : "865e2ceddfd06a1db24f274075a05628",
+      "suffix" : "mp3",
+      "name" : "bgm1"
+    },
+    {
+      "path" : "resource_v6\/sound\/click_wa.mp3",
+      "sign" : "f4559aaef6b659cce68c09650225486d",
+      "suffix" : "mp3",
+      "name" : "click_wa"
+    },
+    {
+      "path" : "resource_v6\/sound\/click.mp3",
+      "sign" : "e5f953b5df46736a24972872f91f4f44",
+      "suffix" : "mp3",
+      "name" : "click"
+    },
+    {
+      "path" : "resource_v6\/sound\/bgm.mp3",
+      "sign" : "e05b21747d0f241ae61c726d4191223c",
+      "suffix" : "mp3",
+      "name" : "bgm"
+    },
+    {
+      "path" : "resource_v6\/sound\/gamegold.mp3",
+      "sign" : "b36f7f0fdf4c05ce781b705484f4f0d8",
+      "suffix" : "mp3",
+      "name" : "gamegold"
+    },
+    {
+      "path" : "resource_v6\/sound\/buy.mp3",
+      "sign" : "371cf894076a5d637f8795c738b70105",
+      "suffix" : "mp3",
+      "name" : "buy"
+    },
+    {
+      "path" : "resource\/wx\/wddx_bt_019.png",
+      "sign" : "9e3d28d06f942bdc78065e0b8d322ef3",
+      "suffix" : "png",
+      "name" : "wddx_bt_019"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_028.png",
+      "sign" : "a404404f81c2970242682b0a88a975a4",
+      "suffix" : "png",
+      "name" : "wddx_ic_028"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_025.png",
+      "sign" : "07d99f1332b54f58b995fe0337be0e7d",
+      "suffix" : "png",
+      "name" : "wddx_ic_025"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_019.png",
+      "sign" : "221da7673d17ccd8da7ffa70c7847d48",
+      "suffix" : "png",
+      "name" : "wddx_ic_019"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_024.png",
+      "sign" : "6414bf102ffe887902bc07f8b3a1e48f",
+      "suffix" : "png",
+      "name" : "wddx_ic_024"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_026.png",
+      "sign" : "b6cec538180af04ac5a5be26d4c1b855",
+      "suffix" : "png",
+      "name" : "wddx_ic_026"
+    },
+    {
+      "path" : "resource\/rank\/wddx_bg_004.png",
+      "sign" : "82a244e55723033cee1a5482b5579797",
+      "suffix" : "png",
+      "name" : "wddx_bg_004"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_027.png",
+      "sign" : "e84f16fe4b1452dcc6eb27311c1c6f1b",
+      "suffix" : "png",
+      "name" : "wddx_ic_027"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_023.png",
+      "sign" : "f740d59c547f059aef16c0add45f4050",
+      "suffix" : "png",
+      "name" : "wddx_ic_023"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_022.png",
+      "sign" : "bc971dd042bbbe2672e5807041f8d7b0",
+      "suffix" : "png",
+      "name" : "wddx_ic_022"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_020.png",
+      "sign" : "b8354df48fd7ee2f8b3a56af579e6dad",
+      "suffix" : "png",
+      "name" : "wddx_ic_020"
+    },
+    {
+      "path" : "resource\/rank\/wddx_bg_002.png",
+      "sign" : "c92357f0920cbd952e090a6615a51098",
+      "suffix" : "png",
+      "name" : "wddx_bg_002"
+    },
+    {
+      "path" : "resource\/rank\/wddx_ic_021.png",
+      "sign" : "6f1bdab7618460f9da68fab164a683b2",
+      "suffix" : "png",
+      "name" : "wddx_ic_021"
+    },
+    {
+      "path" : "resource\/rank\/wddx_huangguan_3.png",
+      "sign" : "2e564a518e40691123318688a6f7ef89",
+      "suffix" : "png",
+      "name" : "wddx_huangguan_3"
+    },
+    {
+      "path" : "resource\/rank\/wddx_huangguan_2.png",
+      "sign" : "a16bb6eea2c6b1e914f0f935da19da3e",
+      "suffix" : "png",
+      "name" : "wddx_huangguan_2"
+    },
+    {
+      "path" : "resource\/rank\/wddx_huangguan_1.png",
+      "sign" : "25b469f70c5d315d957aa3c797f32e25",
+      "suffix" : "png",
+      "name" : "wddx_huangguan_1"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_02.png",
+      "sign" : "ab82afac9a7b998359f92891325a8d34",
+      "suffix" : "png",
+      "name" : "wddx_ball_02"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_03.png",
+      "sign" : "44db4193637aaade8c1e1e78ba995c56",
+      "suffix" : "png",
+      "name" : "wddx_ball_03"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_01.png",
+      "sign" : "5e5a52a150b0d4f51aa29e350d2b1c94",
+      "suffix" : "png",
+      "name" : "wddx_ball_01"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_10.png",
+      "sign" : "eff79033c00f362d6eb33fdd82eb0aa4",
+      "suffix" : "png",
+      "name" : "wddx_ball_10"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_04.png",
+      "sign" : "c30616a122fb72c623c15e97b78e126c",
+      "suffix" : "png",
+      "name" : "wddx_ball_04"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_05.png",
+      "sign" : "25dbdcff46f1a29f135d34ba29003400",
+      "suffix" : "png",
+      "name" : "wddx_ball_05"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_07.png",
+      "sign" : "ff7e7f8630fa80f8f1636fe7a8e66811",
+      "suffix" : "png",
+      "name" : "wddx_ball_07"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_06.png",
+      "sign" : "67f7fba025c7499ae0ee17b9ef59e4bd",
+      "suffix" : "png",
+      "name" : "wddx_ball_06"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/lianji.png",
+      "sign" : "c3607dce439af7519cdc5a23a9c6b3d3",
+      "suffix" : "png",
+      "name" : "lianji"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_08.png",
+      "sign" : "365dc5d873b11971324e86a26cff2c5f",
+      "suffix" : "png",
+      "name" : "wddx_ball_08"
+    },
+    {
+      "path" : "resource_v6\/assets\/bigImage\/wddx_ball_09.png",
+      "sign" : "0b5b0c27156aa35a31273c3730707cd7",
+      "suffix" : "png",
+      "name" : "wddx_ball_09"
+    },
+    {
+      "path" : "resource_v6\/assets\/font\/flyNumber.png",
+      "sign" : "fd2a7d4d2dbc93c8772a0708b31fc5f4",
+      "suffix" : "png",
+      "name" : "flyNumber"
+    },
+    {
+      "path" : "resource_v6\/assets\/font\/comb_click.fnt",
+      "sign" : "c7d0e937b360bd926b6ce6c2656202c6",
+      "suffix" : "fnt",
+      "name" : "comb_click"
+    },
+    {
+      "path" : "resource_v6\/assets\/font\/flyNumber.fnt",
+      "sign" : "9cc56fd595f22414207e3501c8d7e2e1",
+      "suffix" : "fnt",
+      "name" : "flyNumber"
+    },
+    {
+      "path" : "resource_v6\/assets\/font\/comb_click.png",
+      "sign" : "974877f096cded19ce7929a49895722e",
+      "suffix" : "png",
+      "name" : "comb_click"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/icon_stone.json",
+      "sign" : "7df0a944b8c29e370b692a3d9edb4c08",
+      "suffix" : "json",
+      "name" : "icon_stone"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/icon_sheet1.png",
+      "sign" : "be6e2b16dcb93d4a49264bb1eb937cb1",
+      "suffix" : "png",
+      "name" : "icon_sheet1"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/icon_stone.png",
+      "sign" : "4251abb287fb7e96121685fc45cfbfa1",
+      "suffix" : "png",
+      "name" : "icon_stone"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/ui_sheet2.json",
+      "sign" : "c806925ed5cb2c74369ce6d245161b79",
+      "suffix" : "json",
+      "name" : "ui_sheet2"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/ui_sheet.png",
+      "sign" : "f0d8a5ab07e2c931031840eff9b6fd96",
+      "suffix" : "png",
+      "name" : "ui_sheet"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/icon_sheet1.json",
+      "sign" : "af2f80d53c0f34520ec41bab97120681",
+      "suffix" : "json",
+      "name" : "icon_sheet1"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/ui_sheet2.png",
+      "sign" : "a892682960638f196dbe9d6345d49ff2",
+      "suffix" : "png",
+      "name" : "ui_sheet2"
+    },
+    {
+      "path" : "resource_v6\/assets\/sheet\/ui_sheet.json",
+      "sign" : "32379e4f862c75d75794554ea619ab8f",
+      "suffix" : "json",
+      "name" : "ui_sheet"
+    },
+    {
+      "path" : "resource\/assets\/config\/language.json",
+      "sign" : "2d6817d40a2b62b829673d81df72d70a",
+      "suffix" : "json",
+      "name" : "language"
+    },
+    {
+      "path" : "resource\/assets\/config\/config.json",
+      "sign" : "d83e10d59317a0054a75c59fbce943e0",
+      "suffix" : "json",
+      "name" : "config"
+    },
+    {
+      "path" : "resource\/assets\/config\/area_map.json",
+      "sign" : "b8984335f2c1c5346bbe63851e7a1748",
+      "suffix" : "json",
+      "name" : "area_map"
+    },
+    {
+      "path" : "resource\/assets\/config\/appConfig1.json",
+      "sign" : "822332e359314b83f16bfb7798111441",
+      "suffix" : "json",
+      "name" : "appConfig1"
+    },
+    {
+      "path" : "resource\/assets\/mc\/2_tex.json",
+      "sign" : "70ea8898e814596c0115d5f8cef0be2d",
+      "suffix" : "json",
+      "name" : "2_tex"
+    },
+    {
+      "path" : "resource\/assets\/mc\/2_tex.png",
+      "sign" : "849a13210d467b580c6ecb1055433da3",
+      "suffix" : "png",
+      "name" : "2_tex"
+    },
+    {
+      "path" : "resource\/assets\/mc\/2_ske.json",
+      "sign" : "13c5256e4ffad4f772d2b67681c0fe3b",
+      "suffix" : "json",
+      "name" : "2_ske"
+    },
+    {
+      "path" : "resource\/assets\/bigImage\/logo.png",
+      "sign" : "2e0d6a4d8cec288475316b12798b1b90",
+      "suffix" : "png",
+      "name" : "logo"
+    },
+    {
+      "path" : "resource\/assets\/bigImage\/ad_icon.png",
+      "sign" : "3da994b8ed9b539a215f6886851704bd",
+      "suffix" : "png",
+      "name" : "ad_icon"
+    },
+    {
+      "path" : "resource\/assets\/sheet\/loading_sheet.json",
+      "sign" : "0853ff142f1b59edd450e330491db1e3",
+      "suffix" : "json",
+      "name" : "loading_sheet"
+    },
+    {
+      "path" : "resource\/assets\/sheet\/loading_sheet.png",
+      "sign" : "eb4f847f587de0db377aed9a4abc40d6",
+      "suffix" : "png",
+      "name" : "loading_sheet"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/shanshen_tex.png",
+      "sign" : "a65c0519ffc913d9711bd2c63391ac46",
+      "suffix" : "png",
+      "name" : "shanshen_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/1_tex.png",
+      "sign" : "ff43e04162799b116096d99e01634ce9",
+      "suffix" : "png",
+      "name" : "1_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dijing_tex.json",
+      "sign" : "01ee280345dc3118cea22a62e9fdfd40",
+      "suffix" : "json",
+      "name" : "dijing_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianlibaobao_ske.json",
+      "sign" : "ab437f004b973c48459a8fad9ce9db97",
+      "suffix" : "json",
+      "name" : "dianlibaobao_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/daomuzei_tex.png",
+      "sign" : "c71ae4a98a9618a7b51496ab85c87944",
+      "suffix" : "png",
+      "name" : "daomuzei_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/jirounv_tex.json",
+      "sign" : "c8aa8d74f3e3295f3329b4db654b32b3",
+      "suffix" : "json",
+      "name" : "jirounv_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wurenzuandiji_tex.png",
+      "sign" : "66c4f7994eb9cd1508a608ceb28d3247",
+      "suffix" : "png",
+      "name" : "wurenzuandiji_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/daomuzei_tex.json",
+      "sign" : "6fd6880c18852ddbe95e62ed9c00cc58",
+      "suffix" : "json",
+      "name" : "daomuzei_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/3_tex.json",
+      "sign" : "301e5a04552a840c06a994bc137d6589",
+      "suffix" : "json",
+      "name" : "3_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/2_tex.json",
+      "sign" : "70ea8898e814596c0115d5f8cef0be2d",
+      "suffix" : "json",
+      "name" : "2_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/shanshen_ske.json",
+      "sign" : "82493f7a8b6dd57bfbafc5aba266fa94",
+      "suffix" : "json",
+      "name" : "shanshen_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/1_ske.json",
+      "sign" : "d92614ab32b24404f1f2c3a9558f4b91",
+      "suffix" : "json",
+      "name" : "1_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/tuhao_ske.json",
+      "sign" : "fc2f7c51c46b598025e01899735c941e",
+      "suffix" : "json",
+      "name" : "tuhao_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wali_tex.json",
+      "sign" : "9460c6e2890c6679d11dd5787f4a9918",
+      "suffix" : "json",
+      "name" : "wali_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/2_tex.png",
+      "sign" : "849a13210d467b580c6ecb1055433da3",
+      "suffix" : "png",
+      "name" : "2_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/yilishabaishu_ske.json",
+      "sign" : "034bd49de1e108ddc326d07b9d8a8a93",
+      "suffix" : "json",
+      "name" : "yilishabaishu_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wali_tex.png",
+      "sign" : "013e317c8806ee5c3cecd7ce250711fd",
+      "suffix" : "png",
+      "name" : "wali_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wurenzuandiji_tex.json",
+      "sign" : "9bd7cd859c76810cd3df47d4df3aa4eb",
+      "suffix" : "json",
+      "name" : "wurenzuandiji_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/tuhao_tex.png",
+      "sign" : "7af6ce06db3e6690ca177c8519656fb8",
+      "suffix" : "png",
+      "name" : "tuhao_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/3_tex.png",
+      "sign" : "fbb2c75e741231d76d8a7149c50e877e",
+      "suffix" : "png",
+      "name" : "3_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianzuannan_tex.png",
+      "sign" : "55521418ea3325f2e6ca80ace4badc0b",
+      "suffix" : "png",
+      "name" : "dianzuannan_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/mc_eff.png",
+      "sign" : "6d48810bdd1d5fcacc1ec9d134be0d0d",
+      "suffix" : "png",
+      "name" : "mc_eff"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/yilishabaishu_tex.png",
+      "sign" : "3a9b286168aee82b3fecfa869f5310a0",
+      "suffix" : "png",
+      "name" : "yilishabaishu_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianzuannan_tex.json",
+      "sign" : "9ef3b61599a924533c64c01e571fda77",
+      "suffix" : "json",
+      "name" : "dianzuannan_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/jirounv_ske.json",
+      "sign" : "0d419a898de9bb24cb9940b279dacf72",
+      "suffix" : "json",
+      "name" : "jirounv_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/daomuzei_ske.json",
+      "sign" : "3c17f2ead2b693664e20e5c804a090d2",
+      "suffix" : "json",
+      "name" : "daomuzei_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/2_1_tex.png",
+      "sign" : "2eb05dad16d742e401064a60a96dd6d4",
+      "suffix" : "png",
+      "name" : "2_1_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/xiao_eff.json",
+      "sign" : "e76b89d61fea7dd237a5ddb80b0c9773",
+      "suffix" : "json",
+      "name" : "xiao_eff"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dijing_ske.json",
+      "sign" : "f440a68dcee245184ed02be060c28f87",
+      "suffix" : "json",
+      "name" : "dijing_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianlibaobao_tex.json",
+      "sign" : "caa6c50ffefbe0beba45e90feb5a8c7a",
+      "suffix" : "json",
+      "name" : "dianlibaobao_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianlibaobao_tex.png",
+      "sign" : "a90fe892bbd9ea99ba83a6b45e5a798f",
+      "suffix" : "png",
+      "name" : "dianlibaobao_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dijing_tex.png",
+      "sign" : "86823441698c8446704dc666099b3f68",
+      "suffix" : "png",
+      "name" : "dijing_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wurenzuandiji_ske.json",
+      "sign" : "f04ea31ce5637e0658d7d34610a0c43f",
+      "suffix" : "json",
+      "name" : "wurenzuandiji_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/dianzuannan_ske.json",
+      "sign" : "9cf96e8524c9ce7a5351d0a90d11e3c2",
+      "suffix" : "json",
+      "name" : "dianzuannan_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/2_ske.json",
+      "sign" : "13c5256e4ffad4f772d2b67681c0fe3b",
+      "suffix" : "json",
+      "name" : "2_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/3_ske.json",
+      "sign" : "2bde6f0cad0b6566b74055825e93be64",
+      "suffix" : "json",
+      "name" : "3_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/shanshen_tex.json",
+      "sign" : "69dd3d1b73f4df4b5af15643f8a46bdb",
+      "suffix" : "json",
+      "name" : "shanshen_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/wali_ske.json",
+      "sign" : "2be30f809084df1ae252424857558b93",
+      "suffix" : "json",
+      "name" : "wali_ske"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/tuhao_tex.json",
+      "sign" : "b1aea721513b3817c47124df43fd925b",
+      "suffix" : "json",
+      "name" : "tuhao_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/jirounv_tex.png",
+      "sign" : "65695ee9fa7e8493975aeb0a8c1d81f0",
+      "suffix" : "png",
+      "name" : "jirounv_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/mc_eff.json",
+      "sign" : "56d85e216296049b870c27461b81ae2f",
+      "suffix" : "json",
+      "name" : "mc_eff"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/1_tex.json",
+      "sign" : "1951271f52bc717e2d26f194a5edda25",
+      "suffix" : "json",
+      "name" : "1_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/xiao_eff.png",
+      "sign" : "8da88e75dbf675bed9ef29ec48cd19cc",
+      "suffix" : "png",
+      "name" : "xiao_eff"
+    },
+    {
+      "path" : "stage\/resource\/assets\/mc\/yilishabaishu_tex.json",
+      "sign" : "fe7b7885eefcc4196e524cdbdbd888da",
+      "suffix" : "json",
+      "name" : "yilishabaishu_tex"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_light_001.png",
+      "sign" : "98c00241c72b3cae0c59bc753ba59a89",
+      "suffix" : "png",
+      "name" : "wddx_light_001"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_side.png",
+      "sign" : "2e0601e30a97e559f095dcc6bcbb8fd7",
+      "suffix" : "png",
+      "name" : "wddx_tu_side"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_bg.png",
+      "sign" : "d5f740d0cf732100f4c9a08ab48d39e8",
+      "suffix" : "png",
+      "name" : "wddx_tu_bg"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_bg_032.png",
+      "sign" : "b10e7b7cda0cf1c55ea5fbd2d8ac84ad",
+      "suffix" : "png",
+      "name" : "wddx_bg_032"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_bg_030.png",
+      "sign" : "e60dca6075113ca3b9e430f6409eaa56",
+      "suffix" : "png",
+      "name" : "wddx_bg_030"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_4.png",
+      "sign" : "ce5f47222c0dd4845e21677657e48925",
+      "suffix" : "png",
+      "name" : "wddx_tu_4"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_5.png",
+      "sign" : "f604de829d0ab67c2dfdeead4b6fb642",
+      "suffix" : "png",
+      "name" : "wddx_tu_5"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_1.png",
+      "sign" : "1e09ba7c2b0c22f4abfa83d39a1e68aa",
+      "suffix" : "png",
+      "name" : "wddx_tu_1"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_bao_001_jinbi.png",
+      "sign" : "fdfac897324c4685d3082d8d5d53a893",
+      "suffix" : "png",
+      "name" : "wddx_bao_001_jinbi"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_2.png",
+      "sign" : "f2cd7419d54d4b2cbccc25c768218c27",
+      "suffix" : "png",
+      "name" : "wddx_tu_2"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_tu_3.png",
+      "sign" : "ef48e6affc9cae5643be0949e799c0ad",
+      "suffix" : "png",
+      "name" : "wddx_tu_3"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_lf_02.png",
+      "sign" : "67a0dfde7692725ce2af09b2ebe28ec0",
+      "suffix" : "png",
+      "name" : "wddx_lf_02"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/zmw.png",
+      "sign" : "ad128a911fc8c6bb85a0276c60c3b717",
+      "suffix" : "png",
+      "name" : "zmw"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_ic_018.png",
+      "sign" : "ab19c609423712dfd4420993c10efc5f",
+      "suffix" : "png",
+      "name" : "wddx_ic_018"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_lf_01.png",
+      "sign" : "4a59e84010ca4c4d142cb60944c9a79b",
+      "suffix" : "png",
+      "name" : "wddx_lf_01"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_bao_001_baoshi.png",
+      "sign" : "27d1d11d3e1f995b59cb7bc2b58cf6fb",
+      "suffix" : "png",
+      "name" : "wddx_bao_001_baoshi"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_bg_029.png",
+      "sign" : "952a117ab7e3ce13eecd7d9d77e6616f",
+      "suffix" : "png",
+      "name" : "wddx_bg_029"
+    },
+    {
+      "path" : "stage\/resource\/assets\/bigImage\/wddx_guang.png",
+      "sign" : "14378d4cf03fb97a0485119416205bfe",
+      "suffix" : "png",
+      "name" : "wddx_guang"
+    },
+    {
+      "path" : "stage\/resource\/assets\/sheet\/icon_sheet.json",
+      "sign" : "c7c01d61d9faf8271bb86d6a9d7866a1",
+      "suffix" : "json",
+      "name" : "icon_sheet"
+    },
+    {
+      "path" : "stage\/resource\/assets\/sheet\/ui_sheet1.json",
+      "sign" : "401d8fe186c2157125160198586b66db",
+      "suffix" : "json",
+      "name" : "ui_sheet1"
+    },
+    {
+      "path" : "stage\/resource\/assets\/sheet\/icon_sheet.png",
+      "sign" : "f144d9e93699956659d7e6d5ebedd496",
+      "suffix" : "png",
+      "name" : "icon_sheet"
+    },
+    {
+      "path" : "stage\/resource\/assets\/sheet\/ui_sheet1.png",
+      "sign" : "64cdbbf7de5618f476c4fdca3273338e",
+      "suffix" : "png",
+      "name" : "ui_sheet1"
+    }
+  ],
+  "serverPath" : "https:\/\/commcdn.chiji-h5.com\/flycar\/"
+}

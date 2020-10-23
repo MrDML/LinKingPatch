@@ -1,0 +1,6 @@
+framework module LinKingPatch {
+  umbrella header "LinKingPatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

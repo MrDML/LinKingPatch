@@ -1,0 +1,28 @@
+{
+  "name": "LinKingPatch",
+  "version": "0.1.0",
+  "summary": "Resources Update.",
+  "description": "TODO: LinKingPatch is a Resources Update SDK.",
+  "homepage": "https://github.com/MrDML/LinKingPatch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dml1630@163.com": "dml1630@163.com"
+  },
+  "source": {
+    "git": "https://github.com/MrDML/LinKingPatch",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LinKingPatch/Classes/**/*.*",
+  "resources": "LinKingPatch/Assets/*.*",
+  "dependencies": {
+    "SSZipArchive": [
+      "~> 2.2.2"
+    ]
+  }
+}

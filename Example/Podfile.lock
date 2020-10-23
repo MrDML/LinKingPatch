@@ -1,0 +1,23 @@
+PODS:
+  - LinKingPatch (0.1.0):
+    - SSZipArchive (~> 2.2.2)
+  - SSZipArchive (2.2.2)
+
+DEPENDENCIES:
+  - LinKingPatch (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  LinKingPatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinKingPatch: 78c3ff14b5ca39a16548987391d4e65883a30b13
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+
+PODFILE CHECKSUM: 699c7ce8b763378614b8e262aec4778ac5b89f6c
+
+COCOAPODS: 1.9.3
