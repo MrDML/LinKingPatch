@@ -148,8 +148,8 @@ static LEPatchManager *_instance = nil;
     dispatch_resume(timer);
 }
 
-- (void)downloadPatchFile:(void(^)(NSError*error))complete{
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://commcdn.chiji-h5.com/flycar/web/content.json"]];
+- (void)downloadPatchFileWithURL:(NSString *)sourceURL complete:(void(^)(NSError*error))complete;{
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:sourceURL]];
     // 文件将要移动到的指定目录
     [[[NSURLSession sharedSession] downloadTaskWithRequest:request completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
 
@@ -376,11 +376,23 @@ static LEPatchManager *_instance = nil;
     }
 }
 
+
+- (NSString *)getCacheRootFilePath{
+    NSString *lingkingPath = [self getCacheRootFilePath:CACHEROOT];
+    return lingkingPath;
+}
+
 /// 获取根Cache目录文件夹
 /// @param path path description
 - (NSString *)getCacheRootFilePath:(NSString *)path{
     NSString *documentPath  =  [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *filePath =  [documentPath stringByAppendingPathComponent:path];
+    // ios12 放在缓存目录中游戏无法加载出来
+    NSString *filePath = [documentPath stringByAppendingPathComponent:path];
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 12 && [[UIDevice currentDevice].systemVersion floatValue] < 13) {
+          filePath = NSTemporaryDirectory();
+    }else{
+        filePath =  [documentPath stringByAppendingPathComponent:path];
+    }
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) { // 存在就返回
         return filePath;
@@ -442,8 +454,7 @@ static LEPatchManager *_instance = nil;
             NSString *path = dict[@"path"];
             NSString *name = dict[@"name"];
             NSString *url = [NSString stringWithFormat:@"%@%@/%@",[LEPatchManager shared].getServerPath,[LEPatchManager shared].getRootPath,path];
-            NSLog(@"url ==>%@",url);
-            
+
             if (![self isDownloadSuccess:name]) {
                 // 开始下载
                 [self download:url fileName:name];
@@ -477,8 +488,6 @@ static LEPatchManager *_instance = nil;
             NSString *path = dict[@"path"];
             NSString *name = dict[@"name"];
             NSString *url = [NSString stringWithFormat:@"%@%@/%@",[LEPatchManager shared].getServerPath,[LEPatchManager shared].getRootPath,path];
-            NSLog(@"url ==>%@",url);
-            
             if (![self isDownloadSuccess:name]) {
                 // 开始下载
                 [self download:url fileName:name];
@@ -520,10 +529,7 @@ static LEPatchManager *_instance = nil;
     NSArray *currentDownload = [NSMutableArray arrayWithArray:[WHC_DownloadObject readDiskAllCache]];
     
     CGFloat p = currentDownload.count * 1.0 / (totalDownload.count);
-    
-    NSLog(@"totalDownload = %@",totalDownload);
-    NSLog(@"currentDownload = %@",currentDownload);
-    NSLog(@"progress----->%lf",p);
+
     if (self.downloadProgress) {
         self.downloadProgress(p);
     }
@@ -544,7 +550,6 @@ static LEPatchManager *_instance = nil;
             WHC_DownloadOperation * downloadOperation = (WHC_DownloadOperation*)operation;
             WHC_DownloadObject * downloadObject = [WHC_DownloadObject readDiskCache:downloadOperation.saveFileName];
             if (downloadObject == nil) {
-                NSLog(@"已经添加到下载队列");
                 downloadObject = [WHC_DownloadObject new];
             }
             downloadObject.fileName = downloadOperation.saveFileName;
@@ -559,12 +564,11 @@ static LEPatchManager *_instance = nil;
             
         }
         } process:^(WHC_BaseOperation * _Nullable operation, uint64_t recvLength, uint64_t totalLength, NSString * _Nullable speed) {
-            WHC_DownloadOperation * downloadOperation = (WHC_DownloadOperation*)operation;
+//            WHC_DownloadOperation * downloadOperation = (WHC_DownloadOperation*)operation;
            // NSLog(@"index = %ld  recvLength = %llu totalLength = %llu speed = %@", (long)%ld  recvLength = %llu totalLength = %llu speed = %@", (long)downloadOperation.index,recvLength , totalLength , speed);
 
         } didFinished:^(WHC_BaseOperation * _Nullable operation, NSData * _Nullable data, NSError * _Nullable error, BOOL isSuccess) {
             if (isSuccess) {
-                NSLog(@"=====下载成功=====");
                 [weakSelf saveDownloadStateOperation:(WHC_DownloadOperation *)operation];
 
             }else {
@@ -651,14 +655,13 @@ static LEPatchManager *_instance = nil;
         
         [[NSFileManager defaultManager] copyItemAtPath:originPath toPath:toPath error:&error];
         if (error != nil) {
-            NSLog(@"复制失败= %@",error.localizedDescription);
             return;
         }
 
         
    
     }else{
-        NSLog(@"==content.json 文件不进行覆盖==");
+
     }
     
         if (index < 0 ) {
@@ -684,7 +687,6 @@ static LEPatchManager *_instance = nil;
         
         if (progress == 1.0) {
             [patchDict setValue:serverVersion forKey:@"version"];
-            NSLog(@"下载完成");
         }
 
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:patchDict options:NSJSONWritingPrettyPrinted error:nil];
@@ -704,20 +706,9 @@ static LEPatchManager *_instance = nil;
 
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 // 删除下载目录
-                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject resourcesDirectory] error:nil];
-                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject cachePlistDirectory] error:nil];
-                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject cacheDirectory] error:nil];
-
-                UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"提示" message:@"更新完成，请退出游戏，重新进入。" preferredStyle:UIAlertControllerStyleAlert];
-                UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
-                    exit(0);
-                }];
-                
-                [alertVC addAction:action];
-                
-                UIViewController *rootViewController = [UIApplication sharedApplication].windows.lastObject.rootViewController;
-                
-                [rootViewController presentViewController:alertVC animated:YES completion:nil];
+//                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject resourcesDirectory] error:nil];
+//                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject cachePlistDirectory] error:nil];
+//                [[NSFileManager defaultManager] removeItemAtPath:[WHC_DownloadObject cacheDirectory] error:nil];
 
             });
 
@@ -732,16 +723,15 @@ static LEPatchManager *_instance = nil;
     dispatch_cancel(timer);
     NSString * errInfo = error.userInfo[NSLocalizedDescriptionKey];
     if ([errInfo containsString:@"404"]) {
-        NSLog(@"该文件不存在");
+
         WHC_DownloadObject * downloadObject = [WHC_DownloadObject readDiskCache:operation.saveFileName];
         if (downloadObject != nil) {
             [downloadObject removeFromDisk];
         }
     }else {
         if ([errInfo containsString:@"已经在下载中"]) {
-            NSLog(@"已经在下载中");
+
         }else {
-            NSLog(@"下载失败");
             WHC_DownloadObject * downloadObject = [WHC_DownloadObject readDiskCache:operation.saveFileName];
             if (downloadObject != nil) {
                 [downloadObject removeFromDisk];
@@ -766,7 +756,6 @@ static LEPatchManager *_instance = nil;
      //创建不带密码zip压缩包
        BOOL isSuccess = [SSZipArchive createZipFileAtPath:path withContentsOfDirectory:folderPath ];
 
-       NSLog(@"path--->%@",path);
        return isSuccess;
 }
 
@@ -874,7 +863,7 @@ static LEPatchManager *_instance = nil;
                         [filesInfo addObject:fileInfo];
 
                     }else{
-                        NSLog(@"-->%@",path);
+ 
                     }
                 }
             }
@@ -905,8 +894,7 @@ static LEPatchManager *_instance = nil;
 {
     
     NSString *sign =  (__bridge_transfer NSString *)FileMD5HashCreateWithPath((__bridge CFStringRef)path, FileHashDefaultChunkSizeForReadingData);
-    
-   // NSLog(@"--->%@",sign);
+
     return sign;
 }
 

@@ -60,11 +60,11 @@ const static double k1MB = 1024 * 1024;
 
 + (WHC_DownloadObject *)readDiskCache:(NSString *)downloadPath {
     
-    NSLog(@"downloadPath---->%@",downloadPath);
+//    NSLog(@"downloadPath---->%@",downloadPath);
     
     WHC_DownloadObject *object = [NSKeyedUnarchiver unarchiveObjectWithFile:[WHC_DownloadObject getCachedFileName:downloadPath]];
     
-    NSLog(@"object = %@",object);
+//    NSLog(@"object = %@",object);
     return object;
 }
 
@@ -140,7 +140,7 @@ const static double k1MB = 1024 * 1024;
 - (void)writeDiskCache {
     if (_downloadPath != nil) {
         [self createCacheDirectory:[WHC_DownloadObject cacheDirectory]];
-        NSLog(@"save---fileName = %@",_fileName);
+//        NSLog(@"save---fileName = %@",_fileName);
         [NSKeyedArchiver archiveRootObject:self
                                     toFile:[WHC_DownloadObject getCachedFileName:_fileName]];//_downloadPath
         [self createCacheDirectory:[WHC_DownloadObject cachePlistDirectory]];
