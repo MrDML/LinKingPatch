@@ -7,44 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B5359D2542A8CE001178DD /* LinKingPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B535962542A8CE001178DD /* LinKingPatch.framework */; };
-		07B5359E2542A8CE001178DD /* LinKingPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07B535962542A8CE001178DD /* LinKingPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		07B535C12542A9D6001178DD /* LinKingPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B535C02542A9D6001178DD /* LinKingPatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5362D2542AB6A001178DD /* WHC_HttpOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5360C2542AB6A001178DD /* WHC_HttpOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5362E2542AB6A001178DD /* WHC_DownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5360D2542AB6A001178DD /* WHC_DownloadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5362F2542AB6A001178DD /* WHC_HttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5360E2542AB6A001178DD /* WHC_HttpManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536302542AB6A001178DD /* WHC_BaseOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5360F2542AB6A001178DD /* WHC_BaseOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536312542AB6A001178DD /* WHC_HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536102542AB6A001178DD /* WHC_HttpManager.m */; };
-		07B536322542AB6A001178DD /* WHC_DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536112542AB6A001178DD /* WHC_DownloadOperation.m */; };
-		07B536332542AB6A001178DD /* WHC_HttpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536122542AB6A001178DD /* WHC_HttpOperation.m */; };
-		07B536342542AB6A001178DD /* WHC_BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536132542AB6A001178DD /* WHC_BaseOperation.m */; };
-		07B536352542AB6A001178DD /* WHCNetWorkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B536142542AB6A001178DD /* WHCNetWorkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536362542AB6A001178DD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536162542AB6A001178DD /* Reachability.m */; };
-		07B536372542AB6A001178DD /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B536172542AB6A001178DD /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536382542AB6A001178DD /* WHC_XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536192542AB6A001178DD /* WHC_XMLParser.m */; };
-		07B536392542AB6A001178DD /* WHC_DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5361A2542AB6A001178DD /* WHC_DataModel.m */; };
-		07B5363A2542AB6A001178DD /* WHC_Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5361B2542AB6A001178DD /* WHC_Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5363B2542AB6A001178DD /* WHC_Xml.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5361C2542AB6A001178DD /* WHC_Xml.m */; };
-		07B5363C2542AB6A001178DD /* WHC_XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5361D2542AB6A001178DD /* WHC_XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5363D2542AB6A001178DD /* WHC_DataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5361E2542AB6A001178DD /* WHC_DataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5363E2542AB6A001178DD /* WHC_Xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5361F2542AB6A001178DD /* WHC_Xml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5363F2542AB6A001178DD /* WHC_Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536202542AB6A001178DD /* WHC_Json.m */; };
-		07B536402542AB6A001178DD /* UIImageView+WHC_HttpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536222542AB6A001178DD /* UIImageView+WHC_HttpImageView.m */; };
-		07B536412542AB6A001178DD /* WHC_ImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B536232542AB6A001178DD /* WHC_ImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536422542AB6A001178DD /* UIButton+WHC_HttpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536242542AB6A001178DD /* UIButton+WHC_HttpButton.m */; };
-		07B536432542AB6A001178DD /* WHC_ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536252542AB6A001178DD /* WHC_ImageCache.m */; };
-		07B536442542AB6A001178DD /* UIImageView+WHC_HttpImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B536262542AB6A001178DD /* UIImageView+WHC_HttpImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536452542AB6A001178DD /* UIButton+WHC_HttpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B536272542AB6A001178DD /* UIButton+WHC_HttpButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536462542AB6A001178DD /* WHC_SessionDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B536292542AB6A001178DD /* WHC_SessionDownloadManager.m */; };
-		07B536472542AB6A001178DD /* WHC_DownloadSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5362A2542AB6A001178DD /* WHC_DownloadSessionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536482542AB6A001178DD /* WHC_SessionDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5362B2542AB6A001178DD /* WHC_SessionDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536492542AB6A001178DD /* WHC_DownloadSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5362C2542AB6A001178DD /* WHC_DownloadSessionTask.m */; };
-		07B5364E2542ABBA001178DD /* WHC_DownloadObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5364A2542ABB9001178DD /* WHC_DownloadObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B5364F2542ABBA001178DD /* LEPatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B5364B2542ABB9001178DD /* LEPatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07B536502542ABBA001178DD /* WHC_DownloadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5364C2542ABB9001178DD /* WHC_DownloadObject.m */; };
-		07B536512542ABBA001178DD /* LEPatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5364D2542ABBA001178DD /* LEPatchManager.m */; };
 		07B536532542AE81001178DD /* web in Resources */ = {isa = PBXBuildFile; fileRef = 07B536522542AE81001178DD /* web */; };
-		43155B245112C334A928A8B1 /* Pods_LinKingPatch_Example_LinKingPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14032600B054FEEAA70B6993 /* Pods_LinKingPatch_Example_LinKingPatch.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -63,13 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07B5359B2542A8CE001178DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07B535952542A8CE001178DD;
-			remoteInfo = LinKingPatch;
-		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -86,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				07B5359E2542A8CE001178DD /* LinKingPatch.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,42 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07B535962542A8CE001178DD /* LinKingPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinKingPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07B535992542A8CE001178DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07B535C02542A9D6001178DD /* LinKingPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinKingPatch.h; path = ../../LinKingPatch/Classes/LinKingPatch.h; sourceTree = "<group>"; };
-		07B5360C2542AB6A001178DD /* WHC_HttpOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_HttpOperation.h; sourceTree = "<group>"; };
-		07B5360D2542AB6A001178DD /* WHC_DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadOperation.h; sourceTree = "<group>"; };
-		07B5360E2542AB6A001178DD /* WHC_HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_HttpManager.h; sourceTree = "<group>"; };
-		07B5360F2542AB6A001178DD /* WHC_BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_BaseOperation.h; sourceTree = "<group>"; };
-		07B536102542AB6A001178DD /* WHC_HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_HttpManager.m; sourceTree = "<group>"; };
-		07B536112542AB6A001178DD /* WHC_DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadOperation.m; sourceTree = "<group>"; };
-		07B536122542AB6A001178DD /* WHC_HttpOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_HttpOperation.m; sourceTree = "<group>"; };
-		07B536132542AB6A001178DD /* WHC_BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_BaseOperation.m; sourceTree = "<group>"; };
-		07B536142542AB6A001178DD /* WHCNetWorkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCNetWorkKit.h; sourceTree = "<group>"; };
-		07B536162542AB6A001178DD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		07B536172542AB6A001178DD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		07B536192542AB6A001178DD /* WHC_XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_XMLParser.m; sourceTree = "<group>"; };
-		07B5361A2542AB6A001178DD /* WHC_DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_DataModel.m; sourceTree = "<group>"; };
-		07B5361B2542AB6A001178DD /* WHC_Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_Json.h; sourceTree = "<group>"; };
-		07B5361C2542AB6A001178DD /* WHC_Xml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_Xml.m; sourceTree = "<group>"; };
-		07B5361D2542AB6A001178DD /* WHC_XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_XMLParser.h; sourceTree = "<group>"; };
-		07B5361E2542AB6A001178DD /* WHC_DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_DataModel.h; sourceTree = "<group>"; };
-		07B5361F2542AB6A001178DD /* WHC_Xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_Xml.h; sourceTree = "<group>"; };
-		07B536202542AB6A001178DD /* WHC_Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_Json.m; sourceTree = "<group>"; };
-		07B536222542AB6A001178DD /* UIImageView+WHC_HttpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WHC_HttpImageView.m"; sourceTree = "<group>"; };
-		07B536232542AB6A001178DD /* WHC_ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_ImageCache.h; sourceTree = "<group>"; };
-		07B536242542AB6A001178DD /* UIButton+WHC_HttpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHC_HttpButton.m"; sourceTree = "<group>"; };
-		07B536252542AB6A001178DD /* WHC_ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ImageCache.m; sourceTree = "<group>"; };
-		07B536262542AB6A001178DD /* UIImageView+WHC_HttpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WHC_HttpImageView.h"; sourceTree = "<group>"; };
-		07B536272542AB6A001178DD /* UIButton+WHC_HttpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHC_HttpButton.h"; sourceTree = "<group>"; };
-		07B536292542AB6A001178DD /* WHC_SessionDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_SessionDownloadManager.m; sourceTree = "<group>"; };
-		07B5362A2542AB6A001178DD /* WHC_DownloadSessionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadSessionTask.h; sourceTree = "<group>"; };
-		07B5362B2542AB6A001178DD /* WHC_SessionDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_SessionDownloadManager.h; sourceTree = "<group>"; };
-		07B5362C2542AB6A001178DD /* WHC_DownloadSessionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadSessionTask.m; sourceTree = "<group>"; };
-		07B5364A2542ABB9001178DD /* WHC_DownloadObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadObject.h; sourceTree = "<group>"; };
-		07B5364B2542ABB9001178DD /* LEPatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEPatchManager.h; sourceTree = "<group>"; };
-		07B5364C2542ABB9001178DD /* WHC_DownloadObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadObject.m; sourceTree = "<group>"; };
-		07B5364D2542ABBA001178DD /* LEPatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEPatchManager.m; sourceTree = "<group>"; };
 		07B536522542AE81001178DD /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
 		14032600B054FEEAA70B6993 /* Pods_LinKingPatch_Example_LinKingPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKingPatch_Example_LinKingPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4974C710DAB6F4EF3156F66F /* Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig"; path = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch/Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +72,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		704612F325335E2FA667B435 /* LinKingPatch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LinKingPatch.podspec; path = ../LinKingPatch.podspec; sourceTree = "<group>"; };
+		704612F325335E2FA667B435 /* LinKingPatch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LinKingPatch.podspec; path = ../LinKingPatch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		718CA9C342001B9DE60C8D17 /* Pods-LinKingPatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingPatch_Example.debug.xcconfig"; path = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E0DA9D02D92FF4440B556DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -164,20 +83,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07B535932542A8CE001178DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43155B245112C334A928A8B1 /* Pods_LinKingPatch_Example_LinKingPatch.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				07B5359D2542A8CE001178DD /* LinKingPatch.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				9D389E42F0B45EEAB1CFE086 /* Pods_LinKingPatch_Example.framework in Frameworks */,
@@ -197,106 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07B535972542A8CE001178DD /* LinKingPatch */ = {
-			isa = PBXGroup;
-			children = (
-				07B536092542AB6A001178DD /* Core */,
-				07B5360A2542AB6A001178DD /* Lib */,
-				07B535C02542A9D6001178DD /* LinKingPatch.h */,
-				07B535992542A8CE001178DD /* Info.plist */,
-			);
-			path = LinKingPatch;
-			sourceTree = "<group>";
-		};
-		07B536092542AB6A001178DD /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				07B5364B2542ABB9001178DD /* LEPatchManager.h */,
-				07B5364D2542ABBA001178DD /* LEPatchManager.m */,
-				07B5364A2542ABB9001178DD /* WHC_DownloadObject.h */,
-				07B5364C2542ABB9001178DD /* WHC_DownloadObject.m */,
-			);
-			name = Core;
-			path = ../../LinKingPatch/Classes/Core;
-			sourceTree = "<group>";
-		};
-		07B5360A2542AB6A001178DD /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				07B5360B2542AB6A001178DD /* NSURLConnection */,
-				07B536142542AB6A001178DD /* WHCNetWorkKit.h */,
-				07B536152542AB6A001178DD /* Reachability */,
-				07B536182542AB6A001178DD /* UtilKit+WHCNetWorkKit */,
-				07B536212542AB6A001178DD /* UIKit+WHCNetWorkKit */,
-				07B536282542AB6A001178DD /* NSURLSession */,
-			);
-			name = Lib;
-			path = ../../LinKingPatch/Classes/Lib;
-			sourceTree = "<group>";
-		};
-		07B5360B2542AB6A001178DD /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				07B5360C2542AB6A001178DD /* WHC_HttpOperation.h */,
-				07B5360D2542AB6A001178DD /* WHC_DownloadOperation.h */,
-				07B5360E2542AB6A001178DD /* WHC_HttpManager.h */,
-				07B5360F2542AB6A001178DD /* WHC_BaseOperation.h */,
-				07B536102542AB6A001178DD /* WHC_HttpManager.m */,
-				07B536112542AB6A001178DD /* WHC_DownloadOperation.m */,
-				07B536122542AB6A001178DD /* WHC_HttpOperation.m */,
-				07B536132542AB6A001178DD /* WHC_BaseOperation.m */,
-			);
-			path = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		07B536152542AB6A001178DD /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				07B536162542AB6A001178DD /* Reachability.m */,
-				07B536172542AB6A001178DD /* Reachability.h */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		07B536182542AB6A001178DD /* UtilKit+WHCNetWorkKit */ = {
-			isa = PBXGroup;
-			children = (
-				07B536192542AB6A001178DD /* WHC_XMLParser.m */,
-				07B5361A2542AB6A001178DD /* WHC_DataModel.m */,
-				07B5361B2542AB6A001178DD /* WHC_Json.h */,
-				07B5361C2542AB6A001178DD /* WHC_Xml.m */,
-				07B5361D2542AB6A001178DD /* WHC_XMLParser.h */,
-				07B5361E2542AB6A001178DD /* WHC_DataModel.h */,
-				07B5361F2542AB6A001178DD /* WHC_Xml.h */,
-				07B536202542AB6A001178DD /* WHC_Json.m */,
-			);
-			path = "UtilKit+WHCNetWorkKit";
-			sourceTree = "<group>";
-		};
-		07B536212542AB6A001178DD /* UIKit+WHCNetWorkKit */ = {
-			isa = PBXGroup;
-			children = (
-				07B536222542AB6A001178DD /* UIImageView+WHC_HttpImageView.m */,
-				07B536232542AB6A001178DD /* WHC_ImageCache.h */,
-				07B536242542AB6A001178DD /* UIButton+WHC_HttpButton.m */,
-				07B536252542AB6A001178DD /* WHC_ImageCache.m */,
-				07B536262542AB6A001178DD /* UIImageView+WHC_HttpImageView.h */,
-				07B536272542AB6A001178DD /* UIButton+WHC_HttpButton.h */,
-			);
-			path = "UIKit+WHCNetWorkKit";
-			sourceTree = "<group>";
-		};
-		07B536282542AB6A001178DD /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				07B536292542AB6A001178DD /* WHC_SessionDownloadManager.m */,
-				07B5362A2542AB6A001178DD /* WHC_DownloadSessionTask.h */,
-				07B5362B2542AB6A001178DD /* WHC_SessionDownloadManager.h */,
-				07B5362C2542AB6A001178DD /* WHC_DownloadSessionTask.m */,
-			);
-			path = NSURLSession;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -304,7 +114,6 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LinKingPatch */,
 				6003F5B5195388D20070C39A /* Tests */,
-				07B535972542A8CE001178DD /* LinKingPatch */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				B36E7259FE8CC50C9559F22D /* Pods */,
@@ -316,7 +125,6 @@
 			children = (
 				6003F58A195388D20070C39A /* LinKingPatch_Example.app */,
 				6003F5AE195388D20070C39A /* LinKingPatch_Tests.xctest */,
-				07B535962542A8CE001178DD /* LinKingPatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -403,54 +211,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		07B535912542A8CE001178DD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07B5362E2542AB6A001178DD /* WHC_DownloadOperation.h in Headers */,
-				07B535C12542A9D6001178DD /* LinKingPatch.h in Headers */,
-				07B536302542AB6A001178DD /* WHC_BaseOperation.h in Headers */,
-				07B536452542AB6A001178DD /* UIButton+WHC_HttpButton.h in Headers */,
-				07B5363D2542AB6A001178DD /* WHC_DataModel.h in Headers */,
-				07B5363A2542AB6A001178DD /* WHC_Json.h in Headers */,
-				07B5363C2542AB6A001178DD /* WHC_XMLParser.h in Headers */,
-				07B536412542AB6A001178DD /* WHC_ImageCache.h in Headers */,
-				07B5362D2542AB6A001178DD /* WHC_HttpOperation.h in Headers */,
-				07B5362F2542AB6A001178DD /* WHC_HttpManager.h in Headers */,
-				07B536482542AB6A001178DD /* WHC_SessionDownloadManager.h in Headers */,
-				07B536352542AB6A001178DD /* WHCNetWorkKit.h in Headers */,
-				07B536442542AB6A001178DD /* UIImageView+WHC_HttpImageView.h in Headers */,
-				07B5364F2542ABBA001178DD /* LEPatchManager.h in Headers */,
-				07B5364E2542ABBA001178DD /* WHC_DownloadObject.h in Headers */,
-				07B536472542AB6A001178DD /* WHC_DownloadSessionTask.h in Headers */,
-				07B536372542AB6A001178DD /* Reachability.h in Headers */,
-				07B5363E2542AB6A001178DD /* WHC_Xml.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		07B535952542A8CE001178DD /* LinKingPatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07B5359F2542A8CE001178DD /* Build configuration list for PBXNativeTarget "LinKingPatch" */;
-			buildPhases = (
-				889ACFADD1E6411AB396A2C5 /* [CP] Check Pods Manifest.lock */,
-				07B535912542A8CE001178DD /* Headers */,
-				07B535922542A8CE001178DD /* Sources */,
-				07B535932542A8CE001178DD /* Frameworks */,
-				07B535942542A8CE001178DD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LinKingPatch;
-			productName = LinKingPatch;
-			productReference = 07B535962542A8CE001178DD /* LinKingPatch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6003F589195388D20070C39A /* LinKingPatch_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LinKingPatch_Example" */;
@@ -465,7 +226,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				07B5359C2542A8CE001178DD /* PBXTargetDependency */,
 			);
 			name = LinKingPatch_Example;
 			productName = LinKingPatch;
@@ -497,14 +257,10 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LK;
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "dml1630@163.com";
 				TargetAttributes = {
-					07B535952542A8CE001178DD = {
-						CreatedOnToolsVersion = 12.0;
-						DevelopmentTeam = MKRFK77PRR;
-						ProvisioningStyle = Automatic;
-					};
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = MKRFK77PRR;
 					};
@@ -529,19 +285,11 @@
 			targets = (
 				6003F589195388D20070C39A /* LinKingPatch_Example */,
 				6003F5AD195388D20070C39A /* LinKingPatch_Tests */,
-				07B535952542A8CE001178DD /* LinKingPatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07B535942542A8CE001178DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,7 +319,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LinKingPatch/LinKingPatch.framework",
+				"${PODS_ROOT}/../../LinKingPatch/Products/LinKingPatch.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -582,28 +330,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		889ACFADD1E6411AB396A2C5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LinKingPatch_Example-LinKingPatch-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94D399A44F2E8610C5586CE2 /* [CP] Check Pods Manifest.lock */ = {
@@ -631,29 +357,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07B535922542A8CE001178DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07B536332542AB6A001178DD /* WHC_HttpOperation.m in Sources */,
-				07B536382542AB6A001178DD /* WHC_XMLParser.m in Sources */,
-				07B536392542AB6A001178DD /* WHC_DataModel.m in Sources */,
-				07B536322542AB6A001178DD /* WHC_DownloadOperation.m in Sources */,
-				07B536402542AB6A001178DD /* UIImageView+WHC_HttpImageView.m in Sources */,
-				07B536312542AB6A001178DD /* WHC_HttpManager.m in Sources */,
-				07B536462542AB6A001178DD /* WHC_SessionDownloadManager.m in Sources */,
-				07B536512542ABBA001178DD /* LEPatchManager.m in Sources */,
-				07B536342542AB6A001178DD /* WHC_BaseOperation.m in Sources */,
-				07B536492542AB6A001178DD /* WHC_DownloadSessionTask.m in Sources */,
-				07B536432542AB6A001178DD /* WHC_ImageCache.m in Sources */,
-				07B5363F2542AB6A001178DD /* WHC_Json.m in Sources */,
-				07B5363B2542AB6A001178DD /* WHC_Xml.m in Sources */,
-				07B536362542AB6A001178DD /* Reachability.m in Sources */,
-				07B536502542ABBA001178DD /* WHC_DownloadObject.m in Sources */,
-				07B536422542AB6A001178DD /* UIButton+WHC_HttpButton.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,11 +378,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07B5359C2542A8CE001178DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07B535952542A8CE001178DD /* LinKingPatch */;
-			targetProxy = 07B5359B2542A8CE001178DD /* PBXContainerItemProxy */;
-		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* LinKingPatch_Example */;
@@ -715,107 +413,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		07B535A02542A8CE001178DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1E5C25E4A3746BF2D0014A /* Pods-LinKingPatch_Example-LinKingPatch.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = MKRFK77PRR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = LinKingPatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leon.www.LinKingPatch;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		07B535A12542A8CE001178DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4974C710DAB6F4EF3156F66F /* Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = MKRFK77PRR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = LinKingPatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leon.www.LinKingPatch;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -972,15 +569,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07B5359F2542A8CE001178DD /* Build configuration list for PBXNativeTarget "LinKingPatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07B535A02542A8CE001178DD /* Debug */,
-				07B535A12542A8CE001178DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "LinKingPatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

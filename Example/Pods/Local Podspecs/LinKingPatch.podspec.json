@@ -18,11 +18,14 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LinKingPatch/Classes/**/*.*",
+  "vendored_frameworks": "LinKingPatch/Products/LinKingPatch.framework",
   "resources": "LinKingPatch/Assets/*.*",
   "dependencies": {
     "SSZipArchive": [
       "~> 2.2.2"
     ]
+  },
+  "xcconfig": {
+    "VALID_ARCHS": "arm64 x86_64 armv7"
   }
 }

@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <LinKingPatch/LEPatchManager.h>
-//! Project version number for LinKingPatch.
-FOUNDATION_EXPORT double LinKingPatchVersionNumber;
-
-//! Project version string for LinKingPatch.
-FOUNDATION_EXPORT const unsigned char LinKingPatchVersionString[];
 
 
 

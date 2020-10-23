@@ -41,18 +41,11 @@ TODO: LinKingPatch is a Resources Update SDK.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   
-  if ENV['IS_SOURCE']
-        s.source_files = 'LinKingPatch/Classes/**/*.*'
-        s.resources = "LinKingPatch/Assets/*.*"
-        s.dependency 'SSZipArchive',  '~> 2.2.2'
-  else
-  
-      s.vendored_frameworks = "LinKingPatch/Products/LinKingPatch.framework"
-      s.resources = "LinKingPatch/Assets/*.*"
-      s.dependency 'SSZipArchive',  '~> 2.2.2'
-      s.xcconfig = {
-          'VALID_ARCHS' =>  'arm64 x86_64 armv7',
-      }
-  end
+  s.vendored_frameworks = "LinKingPatch/Products/LinKingPatch.framework"
+  s.resources = "LinKingPatch/Assets/*.*"
+  s.dependency 'SSZipArchive',  '~> 2.2.2'
+  s.xcconfig = {
+      'VALID_ARCHS' =>  'arm64 x86_64 armv7',
+  }
   
 end

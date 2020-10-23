@@ -6,111 +6,69 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FC7702A72818BB7D27D5CC221CFFC6CB /* LinKingPatch */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3329F5D14EAED5A3F3AB80039BD5686B /* Build configuration list for PBXAggregateTarget "LinKingPatch" */;
+			buildPhases = (
+			);
+			dependencies = (
+				BAA0B0152E2D947B37DEC4C11AEE6D29 /* PBXTargetDependency */,
+			);
+			name = LinKingPatch;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		01282ED8A4128158BBAC7130E2C8E4E7 /* UIButton+WHC_HttpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DB27C13D33E983A1A4DABE58CA691A95 /* UIButton+WHC_HttpButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		013D2E69C0E69DE2BEE197FEE30E047C /* WHC_HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE2F730784708362447E303D84CF561 /* WHC_HttpManager.m */; };
-		014AC1338AFBA1EC187BF7396AF07D31 /* WHC_DownloadObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2DE4A6CF2515C161277D33992EEEA7 /* WHC_DownloadObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06D4BD308EC0D3B7459A0845069C6447 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */; };
-		0C3A3BD271509D7D4A5502F3FC04C74D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26233D65631D4119F57BB28FA3A39B07 /* Security.framework */; };
-		0D88645F3AD11F2199EC0750B1C66349 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10180F0C5C0317D7781B58E2AA9C680E /* WHC_DownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C480FCE358668D3E2F1F99622E11BDF8 /* WHC_DownloadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10826B77CBF84F51B475AF4669279993 /* WHC_HttpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD651B45B57F3237F4A56DC6FAE57A6 /* WHC_HttpOperation.m */; };
-		11692E739C9C70ACC4C963AF6C1E18C6 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		144D4AC14D6E646D96AE50161C8739E3 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1664F96F3AF64A986D1A1801ADB863D8 /* WHC_ImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D02889CB08714815963D90EB2AF16CCA /* WHC_ImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DE11E5BC1E7434286A851312C824B8B /* WHC_DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0D773804A9D87C17A31045FFAD209 /* WHC_DownloadOperation.m */; };
-		22293CC89CB63308756C5F86BF21E2AE /* WHC_HttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 738497DAA08D261DBCAB84317801A278 /* WHC_HttpManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23AD7CDDD55497B1A94FCD3407A122B9 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2837926CE74517498B4C41D6B9960222 /* WHC_Xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 508FFBC719D04AE2F3C4306BA2EFC51E /* WHC_Xml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3104439EFED2810995C16D0957288911 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */; };
-		355397E53D8DB0688EFBF32DCF954D94 /* WHC_SessionDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F862AD3B848AD341E48600315E9788 /* WHC_SessionDownloadManager.m */; };
-		35D9A26CACBA775F620AEDAEA2125535 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */; };
-		3A431244C2BEF3384BA189ABF9BF17B6 /* Pods-LinKingPatch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C00D1846A1E6F3E09B1320D0484D5D1 /* Pods-LinKingPatch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F309FA8455975F862329C357172EAC1 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */; };
-		3F831D3EA637DE5080CFA66395FCF482 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */; };
-		421AD2F9019FAEC1267780DBC74CFEA0 /* WHC_HttpOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E376E665FF69464BBA06753036D50AA8 /* WHC_HttpOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46AE90C19E345FB960CB2CFCEAEB7B13 /* LinKingPatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5506696A7B0CF8557EC4492650AF5E4 /* LinKingPatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BEF54D3BBB22589C1D2D799ED873011 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F214418C26E50F448F808D370271AC /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50ACAB75B10220A73C405851EC1754C9 /* WHC_BaseOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B06FB726E4E25B15935278572A28655 /* WHC_BaseOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59285D80169AB1B74CA908C2302202FF /* WHC_Xml.m in Sources */ = {isa = PBXBuildFile; fileRef = 892F588D3BC1470A40DA3C97532C83AA /* WHC_Xml.m */; };
-		5AD88AA7611D65636E23F833E5CD3320 /* UIImageView+WHC_HttpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A1F80FB0712ED2855CE6CB66B80B0 /* UIImageView+WHC_HttpImageView.m */; };
-		5FBE9B2AEF1562C3A485B35F55C26C24 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */; };
-		605FB8E3D5CF9FCC055D20918BFAF026 /* WHC_DownloadSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C57DCB541A43EED34D9E81A73FA9C10 /* WHC_DownloadSessionTask.m */; };
-		61095181F2DAE84AA37998938F0D011E /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */; };
-		62E74ED344294ECB8C288C35C717980C /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */; };
-		631B7C7DA6FA609850E2AF15878B19A2 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6925BE3B3F6DB7AB13DEA67DF79BC00A /* WHC_DownloadSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D16247AA6B98AC56B6AFF2D4865406E0 /* WHC_DownloadSessionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C3ADD72B5C538077FEEFE630250685E /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */; };
-		75287F1801A43A093F17F8E3DD19659F /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		77907F71AEE75CF492C442803698BAC8 /* LinKingPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188E5942825BAFE6AAB76910F632462 /* LinKingPatch-dummy.m */; };
-		7A7ADA257BD79A430CC088FC7A7CA879 /* WHC_Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FFC2B378B2EE40A96F0D482A41A390 /* WHC_Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A9FAA6D5326FEAD92A7B6FCEDCC59B4 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7BE4F423F2C0DA7E618312CCD2A8B929 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */; };
-		809156252E591093AA0A4796BFBA6712 /* UIButton+WHC_HttpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5253E8A53998B7C4B811A7AB095337 /* UIButton+WHC_HttpButton.m */; };
-		89E2684D08A39EE9952D9B68D81165D7 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8BFFED856CED46270C05FA878D4D9A91 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */; };
-		8D833EFD221D6A863320089D9E8463E4 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90C1D3A85059B3500B30F439CBE4FF50 /* WHC_XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B14424CC7DB132A64BECC81171F4E /* WHC_XMLParser.m */; };
-		942EF2D40342928575F8CBF3E4746BE7 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */; };
-		94BCD939F32F1E5AC16BB2FD72D26E38 /* LinKingPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B166747554718E0AFF7A975AB713BE1 /* LinKingPatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		971C6DADEBDFE4F53DD114267B8B2388 /* WHC_DataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E06B249F973088265BFF4F765FE5A /* WHC_DataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9790485A362EB46CD4B69D5A8E1F4917 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */; };
-		97D4F9076E3D7BA2A255F6894B23E69A /* WHC_DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 099036450030EBF167B548A10C7864DC /* WHC_DataModel.m */; };
-		98339CFEDC533DC453ED2EF155B9931A /* Pods-LinKingPatch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5904EC3A2A9DE1D1A964703746A5263 /* Pods-LinKingPatch_Example-dummy.m */; };
-		98954D573A63B68FE0F8090B24939DDA /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A5A86CE536BE710ABA82DBD9C9F1137 /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E00D9833F6AF26046B26AE8BC7B98F7 /* WHC_DownloadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EF885C26626C6DA242BDC829B1E875 /* WHC_DownloadObject.m */; };
-		9F32A401BAA3EB7A6AE689F9C5BA1150 /* WHC_ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F18C23783BD6B6B358AAC794B776975 /* WHC_ImageCache.m */; };
-		A30CC89E5FB1AB8245ABC85C7949F58F /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */; };
-		A62970EDD175BA0D2D5D85DB8E89F519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */; };
-		A7226A543408D2A0BDE61F6A543EF621 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A9F77A6EB543210DEE117778B8D6C87E /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6039163DC3583F66F6478C16060E1041 /* mz_compat.c */; };
-		AC413CF07E8CA6419EDA60788EB72CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */; };
-		AC95A04CA0F7D615BA0FC1CCA4FA1BD8 /* WHC_BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C21E0E8FF2B930D65B4BAFA4175948 /* WHC_BaseOperation.m */; };
-		ACBB3A620D903F78B4EF6E4CB204350F /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */; };
-		ADB1A178BD6759672E18CF255D88BDF3 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 137B773281D1784B869061E2702C14AC /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B182D6D0A5C2AE42D80F662086FC99EB /* WHC_SessionDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DDEC0A888F7153AEF27C421D8185DC /* WHC_SessionDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7867D48C48DED642ECD28A2C2551841 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1FB6C152CD1B81F5BB1F539391E142C /* WHCNetWorkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F47D77758DF6F1FB53749525FA3ABF /* WHCNetWorkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C376F722FDCDE00C5E798756610C9E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */; };
-		CA06BDC1DBBCC12B0D0B6C73CCC31362 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4F2EE4DAB7B8426A3A2006B633369 /* Reachability.m */; };
-		CC61F0B2554288B89428380CDE287271 /* WHC_XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FDCAFB2328DDD6A2F79CF1BDD4D71A /* WHC_XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0AA9BD77CDB080F0028B2663E5AA2C3 /* LEPatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E479693A18809DC1045A4F6385231128 /* LEPatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D64D2D08AD2DEB68B73FDB7B1D3B9A94 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */; };
-		DA569AF3262624A269A74F5407D5F14A /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DFF6D505F3897B157952C320D93C4E6B /* UIImageView+WHC_HttpImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55892B146AA683477FBA75E9D6955608 /* UIImageView+WHC_HttpImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0026B46F57F0383A9D0C1F01B92662F /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6916486A6A31EAD4A5E3EDEA91E22C2 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 104766F0FE3E7C4A056F74CDCFA2ECC2 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8BEC9C95EFAF486D13B04FBBB16002D /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */; };
-		E99E5C76F1EF200DBB51FFF8DBB81520 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EA3CF1B3739365994B9FED7686043C06 /* LEPatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B889DDEE4E7C1FA9DCD9C67A35F27C2 /* LEPatchManager.m */; };
-		EC3233D97A782AE51B47CCED980E12D4 /* Pods-LinKingPatch_Example-LinKingPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D99158A5444250E0D61200CEE6AD9A /* Pods-LinKingPatch_Example-LinKingPatch-dummy.m */; };
-		F1D25BE27B5473D0570F022EBA7C8366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */; };
-		F5A714B71301A8CF1E3D8F4D8357CB59 /* Pods-LinKingPatch_Example-LinKingPatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A4B7A98DB0560B769C6095FF03A32A /* Pods-LinKingPatch_Example-LinKingPatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F937AC3ED75F29BC8AC268E04FE51CAE /* WHC_Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF371E41694C2A9263374D400B7B029 /* WHC_Json.m */; };
+		1C22463BBE5CBDAEAA4F1C987315C2BF /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */; };
+		28FC72044C44DD780969035161AE86F2 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */; };
+		2C68E54F588C1556FFE7214CFA6577D3 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D99E5B33E80A1DE39BE5C81E87F1D05 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 137B773281D1784B869061E2702C14AC /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3F863DF480A78AB9674824E0390216 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */; };
+		32D15EF8F82075DF063013520EA89008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		37F95470A382BD6762DBB2DB2E524679 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */; };
+		3A431244C2BEF3384BA189ABF9BF17B6 /* Pods-LinKingPatch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB8E1E385EC4FFA35137F413E0E5B39 /* Pods-LinKingPatch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CDDE469802A51FC8E41D5EBDF385A1E /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */; };
+		3FEE011EA775F9BCE9275D95C9F6D733 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
+		487C52B4E11CB0B3260D62C0477EF681 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BAF585450C00B11F8C6351F68508E31 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59F9915EBAF568382A9F792DD0287EB9 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */; };
+		63974470D15D4A6394E5DE875DE70C52 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65A0F7C16A8DBCD1AB11C22DD3BBB2B6 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D7599E730210D42EC381603D843912E /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70E3763E82A402E5A5D2D2736993F8EA /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78AAEEEBE0EF4804471CF81D1AD153B2 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */; };
+		7E7F277565B7F87709D8BD52951291E1 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		813902F2A9029822F630E660CA3344EE /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91CB256702AC5BB7178EB5FE56C2F4BE /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961CFC6CAD4FE5996572845C5DFD242A /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98339CFEDC533DC453ED2EF155B9931A /* Pods-LinKingPatch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD9A86A922673512335DC5AB2E10BAA /* Pods-LinKingPatch_Example-dummy.m */; };
+		98991641BA89A002B0F3107CF3907B2E /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C948C8E2348ACA68A5B4F1AEABE2BD6 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F214418C26E50F448F808D370271AC /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1ECF70C8E6C66E57ACD94368111306E /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */; };
+		AFD5ECC0C156B7DB147CCB57E20FB80D /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFED67563DB6CF7851905B6545162A0D /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */; };
+		B1BD8A70DD02D8EB1C1769488D94C992 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C376F722FDCDE00C5E798756610C9E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		CE13A2658CEB831533578A94C71FF8DA /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */; };
+		D5073C558E557B8A3959F812D105C1DE /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */; };
+		E3F3A35E8A5EE5284913F86FB69F224F /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3F8F22DBA3E5266F7156B1DFADFB3B3 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */; };
+		E5405D9A8B3FD512A865820DFA865981 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */; };
+		ED5C1EB94FEC7E9B924A0C25F2D50D1C /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6039163DC3583F66F6478C16060E1041 /* mz_compat.c */; };
+		F17C75810746FCE7109D4BBD44396682 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */; };
+		F1C76BC97D33D84AB0B8D60DAB2A196F /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */; };
+		F8638D00E92D705E1A8EC6D542B206B5 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB84E2F6D5A745755EC6AEB4E5FFF435 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DA37BB9558FFBFD154AC4968D6C425A /* PBXContainerItemProxy */ = {
+		01A23693C931A12DDF2BB6084A5F245B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
 			remoteInfo = SSZipArchive;
-		};
-		34E4762DE1FEEBA68622A24AF1DF5608 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
-			remoteInfo = SSZipArchive;
-		};
-		64E47BAB33E907A5688773367E77B83F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC7702A72818BB7D27D5CC221CFFC6CB;
-			remoteInfo = LinKingPatch;
 		};
 		87EBE8CD43A7CA753D43B50C9A8CDF15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -130,123 +88,74 @@
 
 /* Begin PBXFileReference section */
 		05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
-		05EF885C26626C6DA242BDC829B1E875 /* WHC_DownloadObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadObject.m; sourceTree = "<group>"; };
-		099036450030EBF167B548A10C7864DC /* WHC_DataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_DataModel.m; sourceTree = "<group>"; };
-		0AE344FDDBEAFCEAAFD0CA76EECAA4CD /* LinKingPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinKingPatch.release.xcconfig; sourceTree = "<group>"; };
 		0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
-		104766F0FE3E7C4A056F74CDCFA2ECC2 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		137B773281D1784B869061E2702C14AC /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
-		17D2BB172C85B8BF83AC1782800E26F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
-		1B166747554718E0AFF7A975AB713BE1 /* LinKingPatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinKingPatch.h; path = LinKingPatch/Classes/LinKingPatch.h; sourceTree = "<group>"; };
-		1B4A1F80FB0712ED2855CE6CB66B80B0 /* UIImageView+WHC_HttpImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WHC_HttpImageView.m"; sourceTree = "<group>"; };
 		1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
 		1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
-		23F862AD3B848AD341E48600315E9788 /* WHC_SessionDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_SessionDownloadManager.m; sourceTree = "<group>"; };
 		247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
-		26233D65631D4119F57BB28FA3A39B07 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		25F85A6866D64376025192A377D87D15 /* LinKingPatch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinKingPatch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27BDC00B855118DFBC2C860B41D291A2 /* Pods_LinKingPatch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinKingPatch_Example.framework; path = "Pods-LinKingPatch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29FFC2B378B2EE40A96F0D482A41A390 /* WHC_Json.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_Json.h; sourceTree = "<group>"; };
 		2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
-		2F18C23783BD6B6B358AAC794B776975 /* WHC_ImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_ImageCache.m; sourceTree = "<group>"; };
+		2DB8E1E385EC4FFA35137F413E0E5B39 /* Pods-LinKingPatch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinKingPatch_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E3715C259179D6B05FDE0D857021878 /* LinKingPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinKingPatch.framework; path = LinKingPatch/Products/LinKingPatch.framework; sourceTree = "<group>"; };
+		2EF8F5A2716C96A878EC16C4B6621707 /* LinKingPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinKingPatch.release.xcconfig; sourceTree = "<group>"; };
 		3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
 		330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
 		3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
-		3CF0D773804A9D87C17A31045FFAD209 /* WHC_DownloadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadOperation.m; sourceTree = "<group>"; };
-		43E5A575E335A912C548FB1AD88960AB /* Pods-LinKingPatch_Example-LinKingPatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinKingPatch_Example-LinKingPatch.modulemap"; sourceTree = "<group>"; };
+		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		432561E3BBB855D24B42FBE7FCC3E6C3 /* Pods-LinKingPatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45C3F06B4546B24F7E00129F31A2A525 /* Pods-LinKingPatch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BE8B8A51FA452FF4595F824B9A03664 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
 		50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
-		508FFBC719D04AE2F3C4306BA2EFC51E /* WHC_Xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_Xml.h; sourceTree = "<group>"; };
-		5188E5942825BAFE6AAB76910F632462 /* LinKingPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinKingPatch-dummy.m"; sourceTree = "<group>"; };
-		54B1A5C0108F657BDB7E2979B707757B /* LinKingPatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LinKingPatch-Info.plist"; sourceTree = "<group>"; };
-		55892B146AA683477FBA75E9D6955608 /* UIImageView+WHC_HttpImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WHC_HttpImageView.h"; sourceTree = "<group>"; };
 		56F214418C26E50F448F808D370271AC /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
-		572DFF6A79D0FDF77CB2E59F2763E4A9 /* Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B889DDEE4E7C1FA9DCD9C67A35F27C2 /* LEPatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LEPatchManager.m; sourceTree = "<group>"; };
-		5F4B314930FA10F8584E356902D19ACC /* Pods_LinKingPatch_Example_LinKingPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinKingPatch_Example_LinKingPatch.framework; path = "Pods-LinKingPatch_Example-LinKingPatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6039163DC3583F66F6478C16060E1041 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		60B41D56A6806294B6629C6258D04A0D /* LinKingPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinKingPatch.debug.xcconfig; sourceTree = "<group>"; };
 		62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
 		63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
 		64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
-		68F47D77758DF6F1FB53749525FA3ABF /* WHCNetWorkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHCNetWorkKit.h; sourceTree = "<group>"; };
-		6CD651B45B57F3237F4A56DC6FAE57A6 /* WHC_HttpOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_HttpOperation.m; sourceTree = "<group>"; };
-		6D5253E8A53998B7C4B811A7AB095337 /* UIButton+WHC_HttpButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHC_HttpButton.m"; sourceTree = "<group>"; };
-		6EF371E41694C2A9263374D400B7B029 /* WHC_Json.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_Json.m; sourceTree = "<group>"; };
-		727E06B249F973088265BFF4F765FE5A /* WHC_DataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_DataModel.h; sourceTree = "<group>"; };
-		738497DAA08D261DBCAB84317801A278 /* WHC_HttpManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_HttpManager.h; sourceTree = "<group>"; };
+		67785D633FFB90457DDAAF8C953860FE /* Pods-LinKingPatch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinKingPatch_Example.modulemap"; sourceTree = "<group>"; };
 		747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
-		74B4F2EE4DAB7B8426A3A2006B633369 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7A0B6FCB227DDFF98DA192823BFD3B35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
-		7AE2F730784708362447E303D84CF561 /* WHC_HttpManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_HttpManager.m; sourceTree = "<group>"; };
 		7AE5CF65F73A53BE6A1CAF8C1489BCA3 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
-		7B06FB726E4E25B15935278572A28655 /* WHC_BaseOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_BaseOperation.h; sourceTree = "<group>"; };
-		7D223D944017E0BC1C368A90A26FF3B2 /* Pods-LinKingPatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
-		7ECAA0CA1335D2B43EF1A4662838F492 /* Pods-LinKingPatch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinKingPatch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7ECF07E4190FD01BE0D45B7DE88C3262 /* Pods-LinKingPatch_Example-LinKingPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example-LinKingPatch.debug.xcconfig"; sourceTree = "<group>"; };
 		8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
-		82B8A76CEEC6292936EA1F872A9E449A /* Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig"; sourceTree = "<group>"; };
-		872B14424CC7DB132A64BECC81171F4E /* WHC_XMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_XMLParser.m; sourceTree = "<group>"; };
-		892F588D3BC1470A40DA3C97532C83AA /* WHC_Xml.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_Xml.m; sourceTree = "<group>"; };
-		8C57DCB541A43EED34D9E81A73FA9C10 /* WHC_DownloadSessionTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadSessionTask.m; sourceTree = "<group>"; };
+		82EDAA37345261C9840327C8B693E281 /* Pods-LinKingPatch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinKingPatch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9007A2411BC4056438DAAE1691FBA553 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
 		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
 		93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
-		981F662EE20012F16B06D71BD4C7355F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9C00D1846A1E6F3E09B1320D0484D5D1 /* Pods-LinKingPatch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinKingPatch_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D179E3E5C34CDC6FAACCD1224F2DA8D /* Pods-LinKingPatch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A079F6563FBBE40996A5B6AACA2C5323 /* LinKingPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinKingPatch.debug.xcconfig; sourceTree = "<group>"; };
-		A6FDCAFB2328DDD6A2F79CF1BDD4D71A /* WHC_XMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_XMLParser.h; sourceTree = "<group>"; };
-		AA2DE4A6CF2515C161277D33992EEEA7 /* WHC_DownloadObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadObject.h; sourceTree = "<group>"; };
-		AC8E52F08DF03D118AFC910F2149B63F /* Pods-LinKingPatch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LinKingPatch_Example.modulemap"; sourceTree = "<group>"; };
 		AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
 		B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
-		B17DCC6C596898B2263BFD54AC3F80F1 /* Pods-LinKingPatch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinKingPatch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B1A4B7A98DB0560B769C6095FF03A32A /* Pods-LinKingPatch_Example-LinKingPatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinKingPatch_Example-LinKingPatch-umbrella.h"; sourceTree = "<group>"; };
-		B438369C17CE245645E17339426FCCAD /* LinKingPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinKingPatch-prefix.pch"; sourceTree = "<group>"; };
 		BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
 		BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
-		BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
-		C01D6AAE79FA0D34FB89DA80270C9EA9 /* Pods-LinKingPatch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-Info.plist"; sourceTree = "<group>"; };
-		C1C21E0E8FF2B930D65B4BAFA4175948 /* WHC_BaseOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHC_BaseOperation.m; sourceTree = "<group>"; };
-		C480FCE358668D3E2F1F99622E11BDF8 /* WHC_DownloadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadOperation.h; sourceTree = "<group>"; };
+		BDD9A86A922673512335DC5AB2E10BAA /* Pods-LinKingPatch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinKingPatch_Example-dummy.m"; sourceTree = "<group>"; };
 		C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
 		C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
-		D02889CB08714815963D90EB2AF16CCA /* WHC_ImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_ImageCache.h; sourceTree = "<group>"; };
-		D16247AA6B98AC56B6AFF2D4865406E0 /* WHC_DownloadSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadSessionTask.h; sourceTree = "<group>"; };
 		D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
-		D5506696A7B0CF8557EC4492650AF5E4 /* LinKingPatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinKingPatch-umbrella.h"; sourceTree = "<group>"; };
-		DB27C13D33E983A1A4DABE58CA691A95 /* UIButton+WHC_HttpButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHC_HttpButton.h"; sourceTree = "<group>"; };
+		DA394EBAB993E92548B5FB5F830EB08B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DC2341C111F6B829D5724CF310015EE4 /* Pods-LinKingPatch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
-		E376E665FF69464BBA06753036D50AA8 /* WHC_HttpOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_HttpOperation.h; sourceTree = "<group>"; };
+		E101A8B87B75AB4264189E40CC2AA2B7 /* Pods-LinKingPatch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-Info.plist"; sourceTree = "<group>"; };
 		E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
-		E479693A18809DC1045A4F6385231128 /* LEPatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LEPatchManager.h; sourceTree = "<group>"; };
-		E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E4F4E9E48C1DE36E1AB734D45D91C528 /* LinKingPatch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinKingPatch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E681BBE632098F1A11961D9394CAA9F1 /* LinKingPatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LinKingPatch.modulemap; sourceTree = "<group>"; };
-		E7EAD8217AAB8797C59EADBA18F36423 /* Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.plist"; sourceTree = "<group>"; };
-		E9401C7A832929362F35C20345F06C2C /* LinKingPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LinKingPatch.framework; path = LinKingPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
-		EA4A0FB517FEBC303A964DAF8AD90FDE /* Pods-LinKingPatch_Example-LinKingPatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinKingPatch_Example-LinKingPatch-Info.plist"; sourceTree = "<group>"; };
-		F0DDEC0A888F7153AEF27C421D8185DC /* WHC_SessionDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WHC_SessionDownloadManager.h; sourceTree = "<group>"; };
-		F5904EC3A2A9DE1D1A964703746A5263 /* Pods-LinKingPatch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinKingPatch_Example-dummy.m"; sourceTree = "<group>"; };
-		F5D99158A5444250E0D61200CEE6AD9A /* Pods-LinKingPatch_Example-LinKingPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinKingPatch_Example-LinKingPatch-dummy.m"; sourceTree = "<group>"; };
+		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
-		FDC63DF5A5E00EE4BB6A88B0D227D49D /* Pods-LinKingPatch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinKingPatch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F7A17FC96D5C4DEC6789296290D47F73 /* Pods-LinKingPatch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinKingPatch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FEB8CF74030C592600497180DDD2AD1B /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F70C6F7417A358DBB5286E66AD397B6 /* Frameworks */ = {
+		7FF9B6C3B4C81A45592EC107A610C85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D25BE27B5473D0570F022EBA7C8366 /* Foundation.framework in Frameworks */,
-				0C3A3BD271509D7D4A5502F3FC04C74D /* Security.framework in Frameworks */,
+				32D15EF8F82075DF063013520EA89008 /* Foundation.framework in Frameworks */,
+				3FEE011EA775F9BCE9275D95C9F6D733 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,36 +167,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF49FC5DCAE799F6DFC7B88704C37D3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A62970EDD175BA0D2D5D85DB8E89F519 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF77322782849FFFC106D61FE72BE87A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC413CF07E8CA6419EDA60788EB72CC4 /* Foundation.framework in Frameworks */,
-				62E74ED344294ECB8C288C35C717980C /* SSZipArchive.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095469083E8DF861DB0B70E6FA593DA2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				17D2BB172C85B8BF83AC1782800E26F0 /* LICENSE */,
-				E4F4E9E48C1DE36E1AB734D45D91C528 /* LinKingPatch.podspec */,
-				981F662EE20012F16B06D71BD4C7355F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0AB5FDE70D391780CA6ECC202872D4A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,71 +185,12 @@
 			path = "../Target Support Files/SSZipArchive";
 			sourceTree = "<group>";
 		};
-		1F75C293DB7DB7AB3F3ACEB88339B267 /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E681BBE632098F1A11961D9394CAA9F1 /* LinKingPatch.modulemap */,
-				5188E5942825BAFE6AAB76910F632462 /* LinKingPatch-dummy.m */,
-				54B1A5C0108F657BDB7E2979B707757B /* LinKingPatch-Info.plist */,
-				B438369C17CE245645E17339426FCCAD /* LinKingPatch-prefix.pch */,
-				D5506696A7B0CF8557EC4492650AF5E4 /* LinKingPatch-umbrella.h */,
-				A079F6563FBBE40996A5B6AACA2C5323 /* LinKingPatch.debug.xcconfig */,
-				0AE344FDDBEAFCEAAFD0CA76EECAA4CD /* LinKingPatch.release.xcconfig */,
+				6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LinKingPatch";
-			sourceTree = "<group>";
-		};
-		26EEDA2468818A2AECA93524B807CDB6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9401C7A832929362F35C20345F06C2C /* LinKingPatch.framework */,
-				27BDC00B855118DFBC2C860B41D291A2 /* Pods_LinKingPatch_Example.framework */,
-				5F4B314930FA10F8584E356902D19ACC /* Pods_LinKingPatch_Example_LinKingPatch.framework */,
-				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2A4A328024C0D414126E0E67CF0B7FEA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E48F522B7C804FAB30A7630B5D7E6A32 /* Foundation.framework */,
-				26233D65631D4119F57BB28FA3A39B07 /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2ED4B6559EEA686E743AC2B8D6DEF40D /* Pods-LinKingPatch_Example-LinKingPatch */ = {
-			isa = PBXGroup;
-			children = (
-				43E5A575E335A912C548FB1AD88960AB /* Pods-LinKingPatch_Example-LinKingPatch.modulemap */,
-				572DFF6A79D0FDF77CB2E59F2763E4A9 /* Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.markdown */,
-				E7EAD8217AAB8797C59EADBA18F36423 /* Pods-LinKingPatch_Example-LinKingPatch-acknowledgements.plist */,
-				F5D99158A5444250E0D61200CEE6AD9A /* Pods-LinKingPatch_Example-LinKingPatch-dummy.m */,
-				EA4A0FB517FEBC303A964DAF8AD90FDE /* Pods-LinKingPatch_Example-LinKingPatch-Info.plist */,
-				B1A4B7A98DB0560B769C6095FF03A32A /* Pods-LinKingPatch_Example-LinKingPatch-umbrella.h */,
-				7ECF07E4190FD01BE0D45B7DE88C3262 /* Pods-LinKingPatch_Example-LinKingPatch.debug.xcconfig */,
-				82B8A76CEEC6292936EA1F872A9E449A /* Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig */,
-			);
-			name = "Pods-LinKingPatch_Example-LinKingPatch";
-			path = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch";
-			sourceTree = "<group>";
-		};
-		3D58333F0171F1DE04C5DC18F0FAB641 /* UtilKit+WHCNetWorkKit */ = {
-			isa = PBXGroup;
-			children = (
-				727E06B249F973088265BFF4F765FE5A /* WHC_DataModel.h */,
-				099036450030EBF167B548A10C7864DC /* WHC_DataModel.m */,
-				29FFC2B378B2EE40A96F0D482A41A390 /* WHC_Json.h */,
-				6EF371E41694C2A9263374D400B7B029 /* WHC_Json.m */,
-				508FFBC719D04AE2F3C4306BA2EFC51E /* WHC_Xml.h */,
-				892F588D3BC1470A40DA3C97532C83AA /* WHC_Xml.m */,
-				A6FDCAFB2328DDD6A2F79CF1BDD4D71A /* WHC_XMLParser.h */,
-				872B14424CC7DB132A64BECC81171F4E /* WHC_XMLParser.m */,
-			);
-			name = "UtilKit+WHCNetWorkKit";
-			path = "UtilKit+WHCNetWorkKit";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4C2EFC1AA7AA397C59A05B54BB923DDA /* Pods */ = {
@@ -378,119 +201,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		69D4B2BF1CCF1B982148EA54529ADCA1 /* NSURLSession */ = {
+		603E713795AA59BFDFF4FC2892AAD7A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D16247AA6B98AC56B6AFF2D4865406E0 /* WHC_DownloadSessionTask.h */,
-				8C57DCB541A43EED34D9E81A73FA9C10 /* WHC_DownloadSessionTask.m */,
-				F0DDEC0A888F7153AEF27C421D8185DC /* WHC_SessionDownloadManager.h */,
-				23F862AD3B848AD341E48600315E9788 /* WHC_SessionDownloadManager.m */,
+				27BDC00B855118DFBC2C860B41D291A2 /* Pods_LinKingPatch_Example.framework */,
+				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
 			);
-			name = NSURLSession;
-			path = NSURLSession;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6EF6AD5C60A58080C10F4A93782B361C /* Reachability */ = {
+		6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				104766F0FE3E7C4A056F74CDCFA2ECC2 /* Reachability.h */,
-				74B4F2EE4DAB7B8426A3A2006B633369 /* Reachability.m */,
+				EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */,
+				40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */,
 			);
-			name = Reachability;
-			path = Reachability;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		71BEA448D43CE5697FFF1052EB28A8B3 /* NSURLConnection */ = {
+		7398D9AA33E3913F1BF6602930848030 /* LinKingPatch */ = {
 			isa = PBXGroup;
 			children = (
-				7B06FB726E4E25B15935278572A28655 /* WHC_BaseOperation.h */,
-				C1C21E0E8FF2B930D65B4BAFA4175948 /* WHC_BaseOperation.m */,
-				C480FCE358668D3E2F1F99622E11BDF8 /* WHC_DownloadOperation.h */,
-				3CF0D773804A9D87C17A31045FFAD209 /* WHC_DownloadOperation.m */,
-				738497DAA08D261DBCAB84317801A278 /* WHC_HttpManager.h */,
-				7AE2F730784708362447E303D84CF561 /* WHC_HttpManager.m */,
-				E376E665FF69464BBA06753036D50AA8 /* WHC_HttpOperation.h */,
-				6CD651B45B57F3237F4A56DC6FAE57A6 /* WHC_HttpOperation.m */,
-			);
-			name = NSURLConnection;
-			path = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		74F28EA6EEDE177A11829C563AE6FD0D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BCA7498798162555275E79D6E7C9691F /* SSZipArchive.framework */,
-				2A4A328024C0D414126E0E67CF0B7FEA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		989093890D4812D7974511980A5608CC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E949BF68FC8B1F11EBE690989CBA40B /* LinKingPatch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9E949BF68FC8B1F11EBE690989CBA40B /* LinKingPatch */ = {
-			isa = PBXGroup;
-			children = (
-				1B166747554718E0AFF7A975AB713BE1 /* LinKingPatch.h */,
-				B17EA800AA54E22F440178AF86B448FE /* Core */,
-				A2E98F2C9129060BB9D94E58B9D8EAB3 /* Lib */,
-				095469083E8DF861DB0B70E6FA593DA2 /* Pod */,
-				1F75C293DB7DB7AB3F3ACEB88339B267 /* Support Files */,
+				D80338E067000994118611A2CC48A52B /* Frameworks */,
+				E9476C247B448EBDDF8E48DBB2DB063B /* Pod */,
+				D7B857E5E4187188861C15E06B6C987D /* Support Files */,
 			);
 			name = LinKingPatch;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A2E98F2C9129060BB9D94E58B9D8EAB3 /* Lib */ = {
+		B1B0186D284455F7D1522325B927D716 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				68F47D77758DF6F1FB53749525FA3ABF /* WHCNetWorkKit.h */,
-				71BEA448D43CE5697FFF1052EB28A8B3 /* NSURLConnection */,
-				69D4B2BF1CCF1B982148EA54529ADCA1 /* NSURLSession */,
-				6EF6AD5C60A58080C10F4A93782B361C /* Reachability */,
-				AC11E478B8161C457F88F6804FC1D62E /* UIKit+WHCNetWorkKit */,
-				3D58333F0171F1DE04C5DC18F0FAB641 /* UtilKit+WHCNetWorkKit */,
+				7398D9AA33E3913F1BF6602930848030 /* LinKingPatch */,
 			);
-			name = Lib;
-			path = LinKingPatch/Classes/Lib;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AC11E478B8161C457F88F6804FC1D62E /* UIKit+WHCNetWorkKit */ = {
+		C5BD476293BEF1B3779537446F869528 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB27C13D33E983A1A4DABE58CA691A95 /* UIButton+WHC_HttpButton.h */,
-				6D5253E8A53998B7C4B811A7AB095337 /* UIButton+WHC_HttpButton.m */,
-				55892B146AA683477FBA75E9D6955608 /* UIImageView+WHC_HttpImageView.h */,
-				1B4A1F80FB0712ED2855CE6CB66B80B0 /* UIImageView+WHC_HttpImageView.m */,
-				D02889CB08714815963D90EB2AF16CCA /* WHC_ImageCache.h */,
-				2F18C23783BD6B6B358AAC794B776975 /* WHC_ImageCache.m */,
-			);
-			name = "UIKit+WHCNetWorkKit";
-			path = "UIKit+WHCNetWorkKit";
-			sourceTree = "<group>";
-		};
-		B17EA800AA54E22F440178AF86B448FE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E479693A18809DC1045A4F6385231128 /* LEPatchManager.h */,
-				5B889DDEE4E7C1FA9DCD9C67A35F27C2 /* LEPatchManager.m */,
-				AA2DE4A6CF2515C161277D33992EEEA7 /* WHC_DownloadObject.h */,
-				05EF885C26626C6DA242BDC829B1E875 /* WHC_DownloadObject.m */,
-			);
-			name = Core;
-			path = LinKingPatch/Classes/Core;
-			sourceTree = "<group>";
-		};
-		B1C855388C95749EBA62C5C67117BDA9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5AF435A996F933E7FD78854547C00AD /* Pods-LinKingPatch_Example */,
-				2ED4B6559EEA686E743AC2B8D6DEF40D /* Pods-LinKingPatch_Example-LinKingPatch */,
+				DEBA9F27CB49C0A86F72CE1F64661E46 /* Pods-LinKingPatch_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -499,12 +250,47 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				989093890D4812D7974511980A5608CC /* Development Pods */,
-				74F28EA6EEDE177A11829C563AE6FD0D /* Frameworks */,
+				B1B0186D284455F7D1522325B927D716 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4C2EFC1AA7AA397C59A05B54BB923DDA /* Pods */,
-				26EEDA2468818A2AECA93524B807CDB6 /* Products */,
-				B1C855388C95749EBA62C5C67117BDA9 /* Targets Support Files */,
+				603E713795AA59BFDFF4FC2892AAD7A0 /* Products */,
+				C5BD476293BEF1B3779537446F869528 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D7B857E5E4187188861C15E06B6C987D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60B41D56A6806294B6629C6258D04A0D /* LinKingPatch.debug.xcconfig */,
+				2EF8F5A2716C96A878EC16C4B6621707 /* LinKingPatch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LinKingPatch";
+			sourceTree = "<group>";
+		};
+		D80338E067000994118611A2CC48A52B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3715C259179D6B05FDE0D857021878 /* LinKingPatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBA9F27CB49C0A86F72CE1F64661E46 /* Pods-LinKingPatch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				67785D633FFB90457DDAAF8C953860FE /* Pods-LinKingPatch_Example.modulemap */,
+				F7A17FC96D5C4DEC6789296290D47F73 /* Pods-LinKingPatch_Example-acknowledgements.markdown */,
+				45C3F06B4546B24F7E00129F31A2A525 /* Pods-LinKingPatch_Example-acknowledgements.plist */,
+				BDD9A86A922673512335DC5AB2E10BAA /* Pods-LinKingPatch_Example-dummy.m */,
+				82EDAA37345261C9840327C8B693E281 /* Pods-LinKingPatch_Example-frameworks.sh */,
+				E101A8B87B75AB4264189E40CC2AA2B7 /* Pods-LinKingPatch_Example-Info.plist */,
+				2DB8E1E385EC4FFA35137F413E0E5B39 /* Pods-LinKingPatch_Example-umbrella.h */,
+				432561E3BBB855D24B42FBE7FCC3E6C3 /* Pods-LinKingPatch_Example.debug.xcconfig */,
+				DC2341C111F6B829D5724CF310015EE4 /* Pods-LinKingPatch_Example.release.xcconfig */,
+			);
+			name = "Pods-LinKingPatch_Example";
+			path = "Target Support Files/Pods-LinKingPatch_Example";
 			sourceTree = "<group>";
 		};
 		E6859DA5AB1BC62C11CE35942847AE21 /* SSZipArchive */ = {
@@ -549,31 +335,41 @@
 			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
-		F5AF435A996F933E7FD78854547C00AD /* Pods-LinKingPatch_Example */ = {
+		E9476C247B448EBDDF8E48DBB2DB063B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AC8E52F08DF03D118AFC910F2149B63F /* Pods-LinKingPatch_Example.modulemap */,
-				7ECAA0CA1335D2B43EF1A4662838F492 /* Pods-LinKingPatch_Example-acknowledgements.markdown */,
-				9D179E3E5C34CDC6FAACCD1224F2DA8D /* Pods-LinKingPatch_Example-acknowledgements.plist */,
-				F5904EC3A2A9DE1D1A964703746A5263 /* Pods-LinKingPatch_Example-dummy.m */,
-				B17DCC6C596898B2263BFD54AC3F80F1 /* Pods-LinKingPatch_Example-frameworks.sh */,
-				C01D6AAE79FA0D34FB89DA80270C9EA9 /* Pods-LinKingPatch_Example-Info.plist */,
-				9C00D1846A1E6F3E09B1320D0484D5D1 /* Pods-LinKingPatch_Example-umbrella.h */,
-				7D223D944017E0BC1C368A90A26FF3B2 /* Pods-LinKingPatch_Example.debug.xcconfig */,
-				FDC63DF5A5E00EE4BB6A88B0D227D49D /* Pods-LinKingPatch_Example.release.xcconfig */,
+				DA394EBAB993E92548B5FB5F830EB08B /* LICENSE */,
+				25F85A6866D64376025192A377D87D15 /* LinKingPatch.podspec */,
+				7A0B6FCB227DDFF98DA192823BFD3B35 /* README.md */,
 			);
-			name = "Pods-LinKingPatch_Example";
-			path = "Target Support Files/Pods-LinKingPatch_Example";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03F78870769C18BEC893A252EDC01F39 /* Headers */ = {
+		3027F91F54AF7F49E661C29DE5FE9CD6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A714B71301A8CF1E3D8F4D8357CB59 /* Pods-LinKingPatch_Example-LinKingPatch-umbrella.h in Headers */,
+				2C68E54F588C1556FFE7214CFA6577D3 /* mz.h in Headers */,
+				70E3763E82A402E5A5D2D2736993F8EA /* mz_compat.h in Headers */,
+				6D7599E730210D42EC381603D843912E /* mz_crypt.h in Headers */,
+				813902F2A9029822F630E660CA3344EE /* mz_os.h in Headers */,
+				AFD5ECC0C156B7DB147CCB57E20FB80D /* mz_strm.h in Headers */,
+				98991641BA89A002B0F3107CF3907B2E /* mz_strm_buf.h in Headers */,
+				4BAF585450C00B11F8C6351F68508E31 /* mz_strm_mem.h in Headers */,
+				F8638D00E92D705E1A8EC6D542B206B5 /* mz_strm_os.h in Headers */,
+				E3F3A35E8A5EE5284913F86FB69F224F /* mz_strm_pkcrypt.h in Headers */,
+				63974470D15D4A6394E5DE875DE70C52 /* mz_strm_split.h in Headers */,
+				7E7F277565B7F87709D8BD52951291E1 /* mz_strm_wzaes.h in Headers */,
+				B1BD8A70DD02D8EB1C1769488D94C992 /* mz_strm_zlib.h in Headers */,
+				65A0F7C16A8DBCD1AB11C22DD3BBB2B6 /* mz_zip.h in Headers */,
+				961CFC6CAD4FE5996572845C5DFD242A /* mz_zip_rw.h in Headers */,
+				487C52B4E11CB0B3260D62C0477EF681 /* SSZipArchive-umbrella.h in Headers */,
+				2D99E5B33E80A1DE39BE5C81E87F1D05 /* SSZipArchive.h in Headers */,
+				91CB256702AC5BB7178EB5FE56C2F4BE /* SSZipCommon.h in Headers */,
+				9C948C8E2348ACA68A5B4F1AEABE2BD6 /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,80 +381,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9877B2705C99FFAA4B8C0C482B656F18 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0AA9BD77CDB080F0028B2663E5AA2C3 /* LEPatchManager.h in Headers */,
-				46AE90C19E345FB960CB2CFCEAEB7B13 /* LinKingPatch-umbrella.h in Headers */,
-				94BCD939F32F1E5AC16BB2FD72D26E38 /* LinKingPatch.h in Headers */,
-				E6916486A6A31EAD4A5E3EDEA91E22C2 /* Reachability.h in Headers */,
-				01282ED8A4128158BBAC7130E2C8E4E7 /* UIButton+WHC_HttpButton.h in Headers */,
-				DFF6D505F3897B157952C320D93C4E6B /* UIImageView+WHC_HttpImageView.h in Headers */,
-				50ACAB75B10220A73C405851EC1754C9 /* WHC_BaseOperation.h in Headers */,
-				971C6DADEBDFE4F53DD114267B8B2388 /* WHC_DataModel.h in Headers */,
-				014AC1338AFBA1EC187BF7396AF07D31 /* WHC_DownloadObject.h in Headers */,
-				10180F0C5C0317D7781B58E2AA9C680E /* WHC_DownloadOperation.h in Headers */,
-				6925BE3B3F6DB7AB13DEA67DF79BC00A /* WHC_DownloadSessionTask.h in Headers */,
-				22293CC89CB63308756C5F86BF21E2AE /* WHC_HttpManager.h in Headers */,
-				421AD2F9019FAEC1267780DBC74CFEA0 /* WHC_HttpOperation.h in Headers */,
-				1664F96F3AF64A986D1A1801ADB863D8 /* WHC_ImageCache.h in Headers */,
-				7A7ADA257BD79A430CC088FC7A7CA879 /* WHC_Json.h in Headers */,
-				B182D6D0A5C2AE42D80F662086FC99EB /* WHC_SessionDownloadManager.h in Headers */,
-				2837926CE74517498B4C41D6B9960222 /* WHC_Xml.h in Headers */,
-				CC61F0B2554288B89428380CDE287271 /* WHC_XMLParser.h in Headers */,
-				C1FB6C152CD1B81F5BB1F539391E142C /* WHCNetWorkKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D433184A0D1467E46EF786884E57EF47 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89E2684D08A39EE9952D9B68D81165D7 /* mz.h in Headers */,
-				9A5A86CE536BE710ABA82DBD9C9F1137 /* mz_compat.h in Headers */,
-				B7867D48C48DED642ECD28A2C2551841 /* mz_crypt.h in Headers */,
-				631B7C7DA6FA609850E2AF15878B19A2 /* mz_os.h in Headers */,
-				DA569AF3262624A269A74F5407D5F14A /* mz_strm.h in Headers */,
-				23AD7CDDD55497B1A94FCD3407A122B9 /* mz_strm_buf.h in Headers */,
-				E0026B46F57F0383A9D0C1F01B92662F /* mz_strm_mem.h in Headers */,
-				75287F1801A43A093F17F8E3DD19659F /* mz_strm_os.h in Headers */,
-				144D4AC14D6E646D96AE50161C8739E3 /* mz_strm_pkcrypt.h in Headers */,
-				8D833EFD221D6A863320089D9E8463E4 /* mz_strm_split.h in Headers */,
-				A7226A543408D2A0BDE61F6A543EF621 /* mz_strm_wzaes.h in Headers */,
-				E99E5C76F1EF200DBB51FFF8DBB81520 /* mz_strm_zlib.h in Headers */,
-				7A9FAA6D5326FEAD92A7B6FCEDCC59B4 /* mz_zip.h in Headers */,
-				0D88645F3AD11F2199EC0750B1C66349 /* mz_zip_rw.h in Headers */,
-				98954D573A63B68FE0F8090B24939DDA /* SSZipArchive-umbrella.h in Headers */,
-				ADB1A178BD6759672E18CF255D88BDF3 /* SSZipArchive.h in Headers */,
-				11692E739C9C70ACC4C963AF6C1E18C6 /* SSZipCommon.h in Headers */,
-				4BEF54D3BBB22589C1D2D799ED873011 /* ZipArchive.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5DF89164A68F9F03F2CB1B607B6E3679 /* Pods-LinKingPatch_Example-LinKingPatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49298012E9EDFFC4BE7D746BDC9895DA /* Build configuration list for PBXNativeTarget "Pods-LinKingPatch_Example-LinKingPatch" */;
-			buildPhases = (
-				03F78870769C18BEC893A252EDC01F39 /* Headers */,
-				08F85311980E988A964D32A6B3866F38 /* Sources */,
-				CF49FC5DCAE799F6DFC7B88704C37D3F /* Frameworks */,
-				9ADEDC98367E1F057291E83122C836AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD89203FF6A4DCE0F798AF35A1D5A0D2 /* PBXTargetDependency */,
-				1B18BE3BC1DB814937E74FD7A2EDAE11 /* PBXTargetDependency */,
-			);
-			name = "Pods-LinKingPatch_Example-LinKingPatch";
-			productName = "Pods-LinKingPatch_Example-LinKingPatch";
-			productReference = 5F4B314930FA10F8584E356902D19ACC /* Pods_LinKingPatch_Example_LinKingPatch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		AC91764F2F341F12ED93F9C06E72D003 /* Pods-LinKingPatch_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D10F750B750004E4D59E4E2C88B1CC8 /* Build configuration list for PBXNativeTarget "Pods-LinKingPatch_Example" */;
@@ -681,12 +406,12 @@
 		};
 		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7082FFE63BD1496C9E51307EF4FA49B6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildConfigurationList = 3D7B0C21084DE11914832DA3EF5D0B04 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
 			buildPhases = (
-				D433184A0D1467E46EF786884E57EF47 /* Headers */,
-				6ECB1872DA9B7470A95B8AAE73ACB429 /* Sources */,
-				7F70C6F7417A358DBB5286E66AD397B6 /* Frameworks */,
-				9BC0228C451087990C9EAD5C404864B4 /* Resources */,
+				3027F91F54AF7F49E661C29DE5FE9CD6 /* Headers */,
+				605B076CCA109245E8F6ABAA4EAC1511 /* Sources */,
+				7FF9B6C3B4C81A45592EC107A610C85B /* Frameworks */,
+				59C7305F1F00DBFA5EF3F5060A6E36BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -695,25 +420,6 @@
 			name = SSZipArchive;
 			productName = SSZipArchive;
 			productReference = 91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FC7702A72818BB7D27D5CC221CFFC6CB /* LinKingPatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8230FCACF05CF800017D2F592A5DB618 /* Build configuration list for PBXNativeTarget "LinKingPatch" */;
-			buildPhases = (
-				9877B2705C99FFAA4B8C0C482B656F18 /* Headers */,
-				93B75A0BCB69B377CC3E18FAB2CCC82E /* Sources */,
-				DF77322782849FFFC106D61FE72BE87A /* Frameworks */,
-				9ED159CC2AE7E4420CD2D2E841A7AE0A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E18C81A07657A1CF3C2198A073F9760B /* PBXTargetDependency */,
-			);
-			name = LinKingPatch;
-			productName = LinKingPatch;
-			productReference = E9401C7A832929362F35C20345F06C2C /* LinKingPatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -734,41 +440,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 26EEDA2468818A2AECA93524B807CDB6 /* Products */;
+			productRefGroup = 603E713795AA59BFDFF4FC2892AAD7A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FC7702A72818BB7D27D5CC221CFFC6CB /* LinKingPatch */,
 				AC91764F2F341F12ED93F9C06E72D003 /* Pods-LinKingPatch_Example */,
-				5DF89164A68F9F03F2CB1B607B6E3679 /* Pods-LinKingPatch_Example-LinKingPatch */,
 				F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		59C7305F1F00DBFA5EF3F5060A6E36BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72B57149FA0792F8A85E1D5CE066EF05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADEDC98367E1F057291E83122C836AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BC0228C451087990C9EAD5C404864B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ED159CC2AE7E4420CD2D2E841A7AE0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -778,59 +469,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08F85311980E988A964D32A6B3866F38 /* Sources */ = {
+		605B076CCA109245E8F6ABAA4EAC1511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3233D97A782AE51B47CCED980E12D4 /* Pods-LinKingPatch_Example-LinKingPatch-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6ECB1872DA9B7470A95B8AAE73ACB429 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F77A6EB543210DEE117778B8D6C87E /* mz_compat.c in Sources */,
-				6C3ADD72B5C538077FEEFE630250685E /* mz_crypt.c in Sources */,
-				3F309FA8455975F862329C357172EAC1 /* mz_crypt_apple.c in Sources */,
-				35D9A26CACBA775F620AEDAEA2125535 /* mz_os.c in Sources */,
-				D64D2D08AD2DEB68B73FDB7B1D3B9A94 /* mz_os_posix.c in Sources */,
-				9790485A362EB46CD4B69D5A8E1F4917 /* mz_strm.c in Sources */,
-				8BFFED856CED46270C05FA878D4D9A91 /* mz_strm_buf.c in Sources */,
-				06D4BD308EC0D3B7459A0845069C6447 /* mz_strm_mem.c in Sources */,
-				5FBE9B2AEF1562C3A485B35F55C26C24 /* mz_strm_os_posix.c in Sources */,
-				E8BEC9C95EFAF486D13B04FBBB16002D /* mz_strm_pkcrypt.c in Sources */,
-				3F831D3EA637DE5080CFA66395FCF482 /* mz_strm_split.c in Sources */,
-				61095181F2DAE84AA37998938F0D011E /* mz_strm_wzaes.c in Sources */,
-				7BE4F423F2C0DA7E618312CCD2A8B929 /* mz_strm_zlib.c in Sources */,
-				3104439EFED2810995C16D0957288911 /* mz_zip.c in Sources */,
-				ACBB3A620D903F78B4EF6E4CB204350F /* mz_zip_rw.c in Sources */,
-				942EF2D40342928575F8CBF3E4746BE7 /* SSZipArchive-dummy.m in Sources */,
-				A30CC89E5FB1AB8245ABC85C7949F58F /* SSZipArchive.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93B75A0BCB69B377CC3E18FAB2CCC82E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA3CF1B3739365994B9FED7686043C06 /* LEPatchManager.m in Sources */,
-				77907F71AEE75CF492C442803698BAC8 /* LinKingPatch-dummy.m in Sources */,
-				CA06BDC1DBBCC12B0D0B6C73CCC31362 /* Reachability.m in Sources */,
-				809156252E591093AA0A4796BFBA6712 /* UIButton+WHC_HttpButton.m in Sources */,
-				5AD88AA7611D65636E23F833E5CD3320 /* UIImageView+WHC_HttpImageView.m in Sources */,
-				AC95A04CA0F7D615BA0FC1CCA4FA1BD8 /* WHC_BaseOperation.m in Sources */,
-				97D4F9076E3D7BA2A255F6894B23E69A /* WHC_DataModel.m in Sources */,
-				9E00D9833F6AF26046B26AE8BC7B98F7 /* WHC_DownloadObject.m in Sources */,
-				1DE11E5BC1E7434286A851312C824B8B /* WHC_DownloadOperation.m in Sources */,
-				605FB8E3D5CF9FCC055D20918BFAF026 /* WHC_DownloadSessionTask.m in Sources */,
-				013D2E69C0E69DE2BEE197FEE30E047C /* WHC_HttpManager.m in Sources */,
-				10826B77CBF84F51B475AF4669279993 /* WHC_HttpOperation.m in Sources */,
-				9F32A401BAA3EB7A6AE689F9C5BA1150 /* WHC_ImageCache.m in Sources */,
-				F937AC3ED75F29BC8AC268E04FE51CAE /* WHC_Json.m in Sources */,
-				355397E53D8DB0688EFBF32DCF954D94 /* WHC_SessionDownloadManager.m in Sources */,
-				59285D80169AB1B74CA908C2302202FF /* WHC_Xml.m in Sources */,
-				90C1D3A85059B3500B30F439CBE4FF50 /* WHC_XMLParser.m in Sources */,
+				ED5C1EB94FEC7E9B924A0C25F2D50D1C /* mz_compat.c in Sources */,
+				37F95470A382BD6762DBB2DB2E524679 /* mz_crypt.c in Sources */,
+				1C22463BBE5CBDAEAA4F1C987315C2BF /* mz_crypt_apple.c in Sources */,
+				28FC72044C44DD780969035161AE86F2 /* mz_os.c in Sources */,
+				E3F8F22DBA3E5266F7156B1DFADFB3B3 /* mz_os_posix.c in Sources */,
+				F17C75810746FCE7109D4BBD44396682 /* mz_strm.c in Sources */,
+				CE13A2658CEB831533578A94C71FF8DA /* mz_strm_buf.c in Sources */,
+				E5405D9A8B3FD512A865820DFA865981 /* mz_strm_mem.c in Sources */,
+				AFED67563DB6CF7851905B6545162A0D /* mz_strm_os_posix.c in Sources */,
+				F1C76BC97D33D84AB0B8D60DAB2A196F /* mz_strm_pkcrypt.c in Sources */,
+				A1ECF70C8E6C66E57ACD94368111306E /* mz_strm_split.c in Sources */,
+				FB84E2F6D5A745755EC6AEB4E5FFF435 /* mz_strm_wzaes.c in Sources */,
+				3CDDE469802A51FC8E41D5EBDF385A1E /* mz_strm_zlib.c in Sources */,
+				78AAEEEBE0EF4804471CF81D1AD153B2 /* mz_zip.c in Sources */,
+				2E3F863DF480A78AB9674824E0390216 /* mz_zip_rw.c in Sources */,
+				59F9915EBAF568382A9F792DD0287EB9 /* SSZipArchive-dummy.m in Sources */,
+				D5073C558E557B8A3959F812D105C1DE /* SSZipArchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,98 +510,22 @@
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
 			targetProxy = C29EB8632D909CA8673A8D3DA27BE5E7 /* PBXContainerItemProxy */;
 		};
-		1B18BE3BC1DB814937E74FD7A2EDAE11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSZipArchive;
-			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = 2DA37BB9558FFBFD154AC4968D6C425A /* PBXContainerItemProxy */;
-		};
 		6A495F301C7F74043073D1B888D6DF98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LinKingPatch;
 			target = FC7702A72818BB7D27D5CC221CFFC6CB /* LinKingPatch */;
 			targetProxy = 87EBE8CD43A7CA753D43B50C9A8CDF15 /* PBXContainerItemProxy */;
 		};
-		BD89203FF6A4DCE0F798AF35A1D5A0D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LinKingPatch;
-			target = FC7702A72818BB7D27D5CC221CFFC6CB /* LinKingPatch */;
-			targetProxy = 64E47BAB33E907A5688773367E77B83F /* PBXContainerItemProxy */;
-		};
-		E18C81A07657A1CF3C2198A073F9760B /* PBXTargetDependency */ = {
+		BAA0B0152E2D947B37DEC4C11AEE6D29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = 34E4762DE1FEEBA68622A24AF1DF5608 /* PBXContainerItemProxy */;
+			targetProxy = 01A23693C931A12DDF2BB6084A5F245B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E1D563B2F13794E8FDEF1420D685653 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A079F6563FBBE40996A5B6AACA2C5323 /* LinKingPatch.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LinKingPatch/LinKingPatch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LinKingPatch/LinKingPatch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LinKingPatch/LinKingPatch.modulemap";
-				PRODUCT_MODULE_NAME = LinKingPatch;
-				PRODUCT_NAME = LinKingPatch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		117C83D6F09149BC50EB7D7103E3F0E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D223D944017E0BC1C368A90A26FF3B2 /* Pods-LinKingPatch_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2D3B5FA1E4B865D9FDD989FE404612F9 /* Release */ = {
+		12EA9651E232C73517D44C68B2DCB702 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */;
 			buildSettings = {
@@ -973,9 +556,9 @@
 			};
 			name = Release;
 		};
-		41FF9DB15CDC7DF54A6436D02BC415E9 /* Release */ = {
+		25D5727F0D1CD4039D360665323C399B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDC63DF5A5E00EE4BB6A88B0D227D49D /* Pods-LinKingPatch_Example.release.xcconfig */;
+			baseConfigurationReference = DC2341C111F6B829D5724CF310015EE4 /* Pods-LinKingPatch_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -989,7 +572,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example.modulemap";
@@ -1007,7 +590,51 @@
 			};
 			name = Release;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		55FF9F9C4471A52D9E91FDC5BA384DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF8F5A2716C96A878EC16C4B6621707 /* LinKingPatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783E5EE62D1CCC4105C5A9388FF1BD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1055,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1067,7 +694,7 @@
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1118,7 +745,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1131,39 +758,9 @@
 			};
 			name = Debug;
 		};
-		8FC74239B971080AD5C9697911F811A7 /* Debug */ = {
+		BD1FC03FDA39B7F2C04F85EEE4A9486E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A24B07DA2D80B090E267CDF453C2F748 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ECF07E4190FD01BE0D45B7DE88C3262 /* Pods-LinKingPatch_Example-LinKingPatch.debug.xcconfig */;
+			baseConfigurationReference = 432561E3BBB855D24B42FBE7FCC3E6C3 /* Pods-LinKingPatch_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1175,77 +772,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch/Pods-LinKingPatch_Example-LinKingPatch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch/Pods-LinKingPatch_Example-LinKingPatch.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7F90B9D36B899A44AA93B99D6987DDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AE344FDDBEAFCEAAFD0CA76EECAA4CD /* LinKingPatch.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LinKingPatch/LinKingPatch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LinKingPatch/LinKingPatch-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LinKingPatch/LinKingPatch.modulemap";
-				PRODUCT_MODULE_NAME = LinKingPatch;
-				PRODUCT_NAME = LinKingPatch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C71CA6FFAA68437893AF53559E955B15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82B8A76CEEC6292936EA1F872A9E449A /* Pods-LinKingPatch_Example-LinKingPatch.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch/Pods-LinKingPatch_Example-LinKingPatch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LinKingPatch_Example-LinKingPatch/Pods-LinKingPatch_Example-LinKingPatch.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LinKingPatch_Example/Pods-LinKingPatch_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1254,38 +786,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		D5BE4390B3461B50E19DE1C5AEABACD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B41D56A6806294B6629C6258D04A0D /* LinKingPatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3329F5D14EAED5A3F3AB80039BD5686B /* Build configuration list for PBXAggregateTarget "LinKingPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BE4390B3461B50E19DE1C5AEABACD3 /* Debug */,
+				55FF9F9C4471A52D9E91FDC5BA384DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7B0C21084DE11914832DA3EF5D0B04 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783E5EE62D1CCC4105C5A9388FF1BD6F /* Debug */,
+				12EA9651E232C73517D44C68B2DCB702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49298012E9EDFFC4BE7D746BDC9895DA /* Build configuration list for PBXNativeTarget "Pods-LinKingPatch_Example-LinKingPatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A24B07DA2D80B090E267CDF453C2F748 /* Debug */,
-				C71CA6FFAA68437893AF53559E955B15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7082FFE63BD1496C9E51307EF4FA49B6 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FC74239B971080AD5C9697911F811A7 /* Debug */,
-				2D3B5FA1E4B865D9FDD989FE404612F9 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1293,17 +837,8 @@
 		7D10F750B750004E4D59E4E2C88B1CC8 /* Build configuration list for PBXNativeTarget "Pods-LinKingPatch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				117C83D6F09149BC50EB7D7103E3F0E4 /* Debug */,
-				41FF9DB15CDC7DF54A6436D02BC415E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8230FCACF05CF800017D2F592A5DB618 /* Build configuration list for PBXNativeTarget "LinKingPatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E1D563B2F13794E8FDEF1420D685653 /* Debug */,
-				B7F90B9D36B899A44AA93B99D6987DDC /* Release */,
+				BD1FC03FDA39B7F2C04F85EEE4A9486E /* Debug */,
+				25D5727F0D1CD4039D360665323C399B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
