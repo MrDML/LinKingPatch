@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingPatch'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of LinKingPatch.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: LinKingPatch is Overseas SDK Quick Integration Solution.
   s.homepage         = 'https://github.com/MrDML/LinKingPatch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dml1630@163.com' => 'dml1630@163.com' }
+  s.author           = { 'leaon' => 'leaon' }
   s.source           = { :git => 'https://github.com/MrDML/LinKingPatch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -42,7 +42,7 @@ TODO: LinKingPatch is Overseas SDK Quick Integration Solution.
   
   
   s.vendored_frameworks = "LinKingPatch/Products/LinKingPatch.framework"
-  s.resources = "LinKingPatch/Assets/*.*"
+#  s.resources = "LinKingPatch/Assets/*.*"
   s.dependency 'SSZipArchive',  '~> 2.2.2'
   s.xcconfig = {
       'VALID_ARCHS' =>  'arm64 x86_64 armv7',
