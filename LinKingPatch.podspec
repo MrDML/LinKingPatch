@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingPatch'
-  s.version          = '0.1.1'
-  s.summary          = 'Resources Update.'
+  s.version          = '0.1.2'
+  s.summary          = 'A short description of LinKingPatch.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: LinKingPatch is a Resources Update SDK.
+TODO: LinKingPatch is Overseas SDK Quick Integration Solution.
                        DESC
 
   s.homepage         = 'https://github.com/MrDML/LinKingPatch'
