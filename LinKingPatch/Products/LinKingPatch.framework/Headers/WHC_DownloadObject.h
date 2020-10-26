@@ -33,7 +33,7 @@ typedef NS_OPTIONS(NSUInteger, WHCDownloadState) {
 + (NSString *)cachePlistDirectory;
 + (NSString *)cachePlistPath;
 + (NSString *)resourcesDirectory;
-+ (NSArray *)readDownloadedFileCount;
++ (NSString *)targetResourcesDirectoryPath:(NSString *)path fileName:(NSString *)name fileNameSuffix:(NSString *)suffix;
 + (WHC_DownloadObject *)readDiskCache:(NSString *)downloadPath;
 
 + (NSArray *)readDiskAllCache;
