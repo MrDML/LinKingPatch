@@ -25,15 +25,15 @@ NS_ASSUME_NONNULL_BEGIN
 /// 下载服务端补丁文件
 /// @param sourceURL 远程地址
 /// @param complete 下载回调
-- (void)downloadPatchFileWithURL:(NSString *)sourceURL complete:(void(^)(NSError*error,BOOL isUpdate))complete;
+- (void)downloadPatchFileWithURL:(NSString *)sourceURL complete:(void(^)( NSError* _Nullable error,BOOL isUpdate))complete;
 /// 开始热更新
 /// @param progress 更新进度
 /// @param complete 更新是否完成
-- (void)startUpdateResources:(void(^)(float progress, NSDictionary *fileInfo))progress downloadComplete:(void(^)(NSError *error,NSArray *totoalUpdateFileInfos))complete;
+- (void)startUpdateResources:(void(^)(float progress, NSDictionary * _Nullable fileInfo))progress downloadComplete:(void(^)(NSError * _Nullable error,NSArray * _Nullable totoalUpdateFileInfos))complete;
 /// 递归目录生成目下所有文件信息到补丁文件(content.json)
 /// @param serverURL 远程服务根路径
 /// @param serverProjectRootPath 项目路径
-/// @param localProjectRootName 本地项目更目录名
+/// @param localProjectRootName 本地项目根目录名
 /// @param version 版本号 例如 0.0.1 每次热更新需要版本号新增1
 /// @param savePath 生成conten.json 保存的路径
 - (void)generateContentJsonWithServer:(NSString *)serverURL serverProjectRootPath:(NSString *)serverProjectRootPath localProjectRootName:(NSString *)localProjectRootName version:(NSString *)version saveLocalPath:(NSString *)savePath;
