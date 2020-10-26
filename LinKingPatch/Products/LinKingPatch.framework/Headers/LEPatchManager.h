@@ -37,9 +37,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param version 版本号 例如 0.0.1 每次热更新需要版本号新增1
 /// @param savePath 生成conten.json 保存的路径
 - (void)generateContentJsonWithServer:(NSString *)serverURL serverProjectRootPath:(NSString *)serverProjectRootPath localProjectRootName:(NSString *)localProjectRootName version:(NSString *)version saveLocalPath:(NSString *)savePath;
-/// 将项目中的资源文件压缩移动到沙盒
-/// @param unZipComplete 完成回调
-- (void)compressionAndMoveDir:(void(^)(void))unZipComplete;
 /// 获取缓存目录的根目录
 - (NSString *)getCacheRootFilePath;
 /// 清除缓存
